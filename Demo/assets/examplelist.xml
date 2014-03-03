@@ -14,6 +14,11 @@
 						<key>title</key><string>demo2.xml</string>
 						<key>detail</key><string>demo2</string>
 					</dict>
+					<dict>
+						<key>title</key><string>demo3.xml</string>
+						<key>detail</key><string>demo3</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
 				</array>
 			</dict>
 		</dict>
@@ -58,7 +63,7 @@
 		<dict>
 			<key>type</key><string>activity</string>
 			<key>class</key><string>XLIST</string>
-			<key>plist</key><string>SnippetExamples/{@title}</string>
+			<key>plist</key><string>samples/{@title}</string>
 		</dict>
 		<key>treeaction</key>
 		<dict>

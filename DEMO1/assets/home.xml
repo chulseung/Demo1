@@ -1,0 +1,87 @@
+<plist version="1.0">
+	<dict>
+		<!-- header 영역 -->
+		<key>title</key><string>SAMPLE</string>	
+        <key>bgcolor</key><string>0,0,0,1</string>		
+		<key>hidebackbtn</key><string>YES</string>
+		<key>hidenavbar</key><string>YES</string>
+		
+		<!-- 라이프사이클 이벤트 / 데이터 관련 처리 -->		
+		<key>localVariables</key>
+		<dict>
+			<key>title1</key><string>타이틀1</string>
+			<key>other</key>
+			<dict>
+				<key>title2</key><string>2</string>
+			</dict>
+		</dict>
+		
+		<key>onDidLoad</key>
+		<dict>
+			<key>sequence</key>
+			<array>
+				<string>@local.title1.=(새로운타이틀{@local.other.title2})</string>
+			</array>
+		</dict>
+		
+		<!-- 컴포넌트 영역 -->
+		<key>components</key>
+		<dict>
+			<key>componentsOrder</key><string>button_01,button_02</string>
+			<key>button_01</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>HELLO WORLD</string>
+				<key>backgroundcolor</key><string>0.8,0.8,0.8,1</string>
+				<key>pos</key><string>10,10,300,150</string>
+                <key>action</key>
+                <dict>
+                		<key>type</key><string>callAction</string>
+                		<key>name</key><string>popup_action</string>
+                		<key>extra</key>
+                		<dict>
+                			<key>parameter</key>
+                			<dict>
+                				<key>title</key><string>@local.title1</string>
+                				<key>msg</key><string>버튼1이 눌렸습니다.</string>
+                			</dict>
+                		</dict>
+                </dict>    
+			</dict>
+			<key>button_02</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>HELLO WORLD</string>
+				<key>backgroundcolor</key><string>0.8,0.8,0.8,1</string>
+				<key>pos</key><string>10,170,300,150</string>
+                <key>action</key>
+                <dict>
+                		<key>type</key><string>callAction</string>
+                		<key>name</key><string>popup_action</string>
+                		<key>extra</key>
+                		<dict>
+                			<key>parameter</key>
+                			<dict>
+                				<key>title</key><string>@local.other.title2</string>
+                				<key>msg</key><string>버튼2가 눌렸습니다.</string>
+                			</dict>
+                		</dict>
+                </dict>    
+			</dict>
+		</dict>
+		
+		<!-- 액션 영역 -->
+		<key>popup_action</key>
+		<dict>
+            <key>type</key><string>alert</string>
+            <key>title</key><string>@title</string>
+            <key>msg</key><string>@msg</string>
+            <key>button</key>
+            <dict>
+                <key>title</key><string>OK</string>
+            </dict>    
+		</dict>
+
+		
+	</dict>
+</plist>

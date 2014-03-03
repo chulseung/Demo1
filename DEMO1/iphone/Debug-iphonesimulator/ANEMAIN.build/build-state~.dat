@@ -1,0 +1,123 @@
+TANEMAIN
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/4k/dqj0x88d3xd5qbfz18yss8q80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ANEMAIN-Prefix-gxmettuhoznergcmgjfzwvkeohxk/ANEMAIN-Prefix.pch.pth ANEMAIN/ANEMAIN-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c00000000515B88F80000000000000110
+t1364953336
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000512AD1EA00000000003DDFA0
+t1361760746
+s4054944
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/ANEMAIN/../Classes/FlashRuntimeExtensions.h
+c000000005174ECE40000000000005C7B
+t1366617316
+s23675
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/ANEMAIN/ANEMAIN-Prefix.pch
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/ANEMAIN/DunamisAirDelegate.m
+c00000000517A09840000000000001B1B
+t1366952324
+s6939
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Classes/DunamisDelegate.h
+c000000004FD164370000000000000102
+t1339122743
+s258
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Classes/DunamisDelegate.m
+c000000004FD1659B0000000000000B67
+t1339123099
+s2919
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/ANEMAIN.build/Objects-normal/i386/ANEMAIN.LinkFileList
+c00000000518209150000000000000129
+t1367476501
+s297
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/ANEMAIN.build/Objects-normal/i386/DunamisAirDelegate.o
+t2
+s0
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/ANEMAIN.build/Objects-normal/i386/DunamisDelegate.o
+t2
+s0
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/include/ANEMAIN/DunamisDelegate.h
+t1366946107
+s258
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/include/ANEMAIN/FlashRuntimeExtensions.h
+t1366704280
+s23675
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/libANEMAIN.a
+t2
+s0
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/libDunamisCoreDevice.a
+c00000000517772540000000000B1A5B8
+t1366782548
+s11642296
+
+N/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/libDunamisCoreSimul.a
+c000000005177925F0000000000A80328
+t1366790751
+s11010856
+
+N/var/folders/4k/dqj0x88d3xd5qbfz18yss8q80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ANEMAIN-Prefix-gxmettuhoznergcmgjfzwvkeohxk/ANEMAIN-Prefix.pch.pth
+t2
+s0
+
+CBuild AST from /Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/ANEMAIN/DunamisAirDelegate.m
+r0
+
+CBuild AST from /Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Classes/DunamisDelegate.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc42183954032b741^806393954032b741^---0#1#0#--18"Check dependencies36"6D015C0C-8C10-4B1C-A841-9D67BA5337C1-
+
+CCompileC Debug-iphonesimulator/ANEMAIN.build/Objects-normal/i386/DunamisAirDelegate.o /Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/ANEMAIN/DunamisAirDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Debug-iphonesimulator/ANEMAIN.build/Objects-normal/i386/DunamisDelegate.o /Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Classes/DunamisDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/libANEMAIN.a normal i386
+r0
+
+CPBXCp ANEMAIN/../Classes/FlashRuntimeExtensions.h Debug-iphonesimulator/include/ANEMAIN/FlashRuntimeExtensions.h
+r0
+
+CPBXCp Classes/DunamisDelegate.h Debug-iphonesimulator/include/ANEMAIN/DunamisDelegate.h
+r0
+
+CProcessPCH /Users/ooranos88/Library/Developer/Xcode/DerivedData/_PROJECTNAME_-daegfxdmjigroiassvcpvoqggsjg/Index/PrecompiledHeaders/ANEMAIN-Prefix-hilieemfvevylqbkhxdtyyhghxst_ast/ANEMAIN-Prefix.pch.pth ANEMAIN/ANEMAIN-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/4k/dqj0x88d3xd5qbfz18yss8q80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ANEMAIN-Prefix-gxmettuhoznergcmgjfzwvkeohxk/ANEMAIN-Prefix.pch.pth ANEMAIN/ANEMAIN-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389169301.579743
+e389169301.642179
+r0
+xProcessPCH
+x/var/folders/4k/dqj0x88d3xd5qbfz18yss8q80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ANEMAIN-Prefix-gxmettuhoznergcmgjfzwvkeohxk/ANEMAIN-Prefix.pch.pth
+xANEMAIN/ANEMAIN-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/ANEMAIN/ANEMAIN-Prefix.pch'
+oclang: error: no input files
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile ANEMAIN/ANEMAIN-Prefix.pchaa9a94954032b741^dd60a4954032b741^-297"clang: error: no such file or directory: '/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/ANEMAIN/ANEMAIN-Prefix.pch'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-389169301#18446744073709551615#0#-2#--29"Apple LLVM compiler 4.2 Error--0#0#0#-19%DVTDocumentLocation3@115"file://localhost/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/ANEMAIN/ANEMAIN-Prefix.pch000000000080d041^3664"ProcessPCH /var/folders/4k/dqj0x88d3xd5qbfz18yss8q80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ANEMAIN-Prefix-gxmettuhoznergcmgjfzwvkeohxk/ANEMAIN-Prefix.pch.pth ANEMAIN/ANEMAIN-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -static -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/ANEMAIN.build/ANEMAIN-generated-files.hmap -I/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/ANEMAIN.build/ANEMAIN-own-target-headers.hmap -I/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/ANEMAIN.build/ANEMAIN-all-target-headers.hmap -iquote /Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/ANEMAIN.build/ANEMAIN-project-headers.hmap -I/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/ANEMAIN.build/DerivedSources/i386 -I/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator/ANEMAIN.build/DerivedSources -F/Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/Debug-iphonesimulator --serialize-diagnostics /var/folders/4k/dqj0x88d3xd5qbfz18yss8q80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ANEMAIN-Prefix-gxmettuhoznergcmgjfzwvkeohxk/ANEMAIN-Prefix.pch.dia -c /Users/ooranos88/Documents/workspace2/article-jfacetext/src/resource/ios/ANEMAIN/ANEMAIN-Prefix.pch -o /var/folders/4k/dqj0x88d3xd5qbfz18yss8q80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ANEMAIN-Prefix-gxmettuhoznergcmgjfzwvkeohxk/ANEMAIN-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4k/dqj0x88d3xd5qbfz18yss8q80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ANEMAIN-Prefix-gxmettuhoznergcmgjfzwvkeohxk/ANEMAIN-Prefix.pch.d36"CFC4225D-B98C-4CC8-95C6-2D34C1CB5A41-
+
