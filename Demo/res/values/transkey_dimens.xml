@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="KeyGap">2px</dimen>
+    <dimen name="NumberKeyGap">2px</dimen>    
+    <dimen name="cmdKeyGap">2px</dimen>
+    <dimen name="TopMargin">8px</dimen>
+</resources>

@@ -1,0 +1,24 @@
+<plist version="1.0">
+	<dict>
+		<key>bgcolor</key><string>0.01,0.01,0.01,0.6</string>
+		<key>components</key>
+		<dict>
+			<key>button5</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>???? ??</string>
+				<key>pos</key><string>40,300,240,30</string>
+				<key>backgroundcolor</key><string>0.5,0.8,0,0.3</string>
+			</dict>
+		</dict>
+		<key>namedAction</key>
+		<dict>
+			<key>type</key><string>alert</string>
+			<key>msg</key><string>???? ??</string>
+			<key>button</key>
+			<dict>
+				<key>title</key><string>OK</string>
+			</dict>
+		</dict>
+	</dict>
+</plist>

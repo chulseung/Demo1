@@ -1,0 +1,11 @@
+<plist>
+<dict>
+	<key>RemoteHost</key><string>http://dunamisplatform.co.kr:8080</string>
+	<key>AssetsPath</key><string>/dunamis/Demo/assets</string>
+	<key>DunamisId</key><string>eclipse</string>
+	<key>DunamisPwd</key><string>eclipse</string>
+	<key>WebRoot</key><string>/Library/tomcat/webapps/ROOT</string>
+	<key>sync</key><string>NO</string>
+	<key>ConvertXml</key><string>NO</string>
+</dict>
+</plist>

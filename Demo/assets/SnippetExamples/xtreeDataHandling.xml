@@ -1,0 +1,246 @@
+<plist version="1.0">
+	<dict>
+		<key>class</key><string>XTREE</string>	
+		<key>dataProvider</key> 
+		<dict>
+			<key>xmlData</key><string>SnippetExamples/dataHandlingExampleData.xml</string>
+			<key>template</key>
+			<dict>
+				<key>subfolders</key>
+				<array>
+					<dict>
+						<key>subfolders</key>
+						<array>
+							<dict>
+								<key>title</key><string>??</string>
+								<key>data</key><string>{@MobilCarApcBasicInfogroupDTO.prdtNm}</string>
+								<key>_layout</key><string>layout2</string>
+							</dict>
+							<dict>
+								<key>title</key><string>array#1</string>
+								<key>data</key><string>{@record.part1.tabledata.row1.date}</string>
+								<key>_layout</key><string>layout2</string>
+							</dict>
+							<dict>
+								<key>title</key><string>array#2</string>
+								<key>data</key><string>{@record.part1.tabledata._items(1).date}</string>
+								<key>_layout</key><string>layout2</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>subfolders</key>
+						<array>
+							<dict>
+								<key>title</key><string>?? ??? ???</string>
+								<key>link</key><string>SnippetExamples/DataHandlingExampleList.xml</string>
+								<key>_layout</key><string>layout1</string>
+								<key>_action</key><string>action2</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>subfolders</key>
+						<array>
+							<dict>
+								<key>title</key><string>???????</string>
+								<key>_layout</key><string>layout1</string>
+								<key>_action</key><string>getData</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>subfolders</key>
+						<array>
+							<dict>
+								<key>title</key><string>?????</string>
+								<key>_layout</key><string>layout1</string>
+								<key>_action</key><string>action3</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>subfolders</key>
+						<array>
+							<dict>
+								<key>title</key><string>?????#2</string>
+								<key>_layout</key><string>layout1</string>
+								<key>_action</key><string>action5</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>subfolders</key>
+						<array>
+							<dict>
+								<key>title</key><string>?????#3</string>
+								<key>_layout</key><string>layout1</string>
+								<key>_action</key><string>action4</string>
+							</dict>
+						</array>
+					</dict>					
+				</array>
+			</dict>
+		</dict>
+		
+	
+
+		<!--   ?? ??               -->
+
+		<!--   ???? ????? ??? ??? ????               -->		
+		<key>getData</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XFORM</string>
+			<key>plist</key><string>SnippetExamples/selectData.xml</string>
+			<key>extra</key>
+			<dict>
+				<key>parameter</key>
+				<dict>
+					<key>listData</key><string>@self.record</string>
+				</dict>
+			</dict>
+		</dict>
+		
+						
+		<!--   ?? ??               -->
+
+		<!--   ?? ??: ?? ??? ??? ???               -->		
+		<key>action1</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XFORM</string>
+			<key>plist</key><string>{@link}</string>
+			<key>extra</key>
+			<dict>
+				<key>passRecord</key><string>YES</string>
+			</dict>
+			
+		</dict>
+		
+		<!--   ?? ??: ??? ??? ???               -->				
+		<key>action2</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XLIST</string>
+			<key>plist</key><string>{@link}</string>
+			<key>extra</key>
+			<dict>			
+				<key>parameter</key>
+				<dict>
+					<key>arrayData</key><string>@record.part1</string>
+				</dict>
+			</dict>			
+			
+		</dict>
+		
+		<!--   ?? ??: ??? ??              -->						
+		<key>action3</key>
+		<dict>
+			<key>type</key><string>event</string>
+			<key>target</key><string>self</string>
+			<key>command</key><string>setObjectValues</string>
+			<key>values</key>
+			<dict>
+				<key>record.part1.tabledata._items(1).date</key><string>2010-05-10</string>
+				<key>record.part1.tabledata._items(2).date</key><string>2010-05-10</string>
+			</dict>
+			<key>afterEvent</key>
+			<dict>
+					<key>type</key><string>event</string>
+					<key>target</key><string>self</string>
+					<key>command</key><string>reloadTemplate</string>
+			</dict>
+		</dict>
+		
+		<!--   ?? ??: ??? ??              -->								
+		<key>action4</key>
+		<dict>
+			<key>type</key><string>event</string>
+			<key>target</key><string>self</string>
+			<key>command</key><string>setObjectValues</string>
+			<key>values</key>
+			<dict>
+				<key>record.part1.tabledata.row1.date</key><string>2010-05-00</string>
+				<key>record.part1.tabledata._items(1).date</key><string>2010-05-01</string>
+			</dict>
+			<key>afterEvent</key>
+			<dict>
+					<key>type</key><string>event</string>
+					<key>target</key><string>self</string>
+					<key>command</key><string>reloadTemplate</string>
+			</dict>
+		</dict>
+
+		<!--   ?? ??: ??? ?? ??              -->		
+		<key>action5</key>
+		<dict>
+			<key>type</key><string>batch</string>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>type</key><string>event</string>
+					<key>target</key><string>self</string>
+					<key>command</key><string>setObjectValues</string>
+					<key>values</key>
+					<dict>
+						<key>record.part1.tabledata.row1.date</key><string>2010-01-15</string>
+						<key>record.part1.tabledata._items(1).date</key><string>2010-01-16</string>
+					</dict>			
+				</dict>
+				<dict>
+					<key>type</key><string>event</string>
+					<key>target</key><string>self</string>
+					<key>command</key><string>reloadTemplate</string>
+				</dict>
+			</array>
+		</dict>
+		
+		
+		<!--   ???    ???   ??   -->
+		
+		<key>tableviewstyle</key><integer>0</integer>
+		<key>rowHeight</key><integer>44</integer>
+		
+		<key>layout1</key>
+		<dict>
+			<key>cellStyle</key>
+			<dict>
+				<key>selectionStyle</key><integer>1</integer>
+				<key>accessoryType</key><integer>1</integer>
+			</dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>field</key><string>{@title}</string>
+				<key>pos</key><string>10,5,205,30</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+		<key>layout2</key>
+		<dict>
+			<key>cellStyle</key>
+			<dict>
+				<key>selectionStyle</key><integer>0</integer>
+				<key>accessoryType</key><integer>0</integer>
+			</dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>field</key><string>{@title}</string>
+				<key>pos</key><string>10,5,220,30</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+			<key>label2</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>field</key><string>{@data}</string>
+				<key>pos</key><string>110,5,185,30</string>
+				<key>textalign</key><string>right</string>
+			</dict>
+		</dict>
+	</dict>
+</plist>
+
+
+

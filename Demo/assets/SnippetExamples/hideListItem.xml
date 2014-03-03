@@ -1,0 +1,133 @@
+<plist>
+	<dict>
+		<key>dataProvider</key>
+		<dict>
+			<key>template</key>
+			<dict>
+				<key>tabledata</key>
+				<array>
+					<dict>
+						<key>title1</key><string>??? ????.</string>
+						<key>_layout</key><string>cellLayout</string>
+					</dict>
+					<dict>
+						<key>title1</key><string>??? ????.</string>
+						<key>_layout</key><string>cellLayout</string>
+					</dict>
+					
+					<dict>
+						<key>title1</key><string>??? ?? ??? ? ???.</string>
+						<key>detail</key><string>_layout ? ???? ????..</string>
+						<key>_layout</key><string>layout1</string>
+						<key>_action</key><string>actionHide</string>
+						<key>recordName</key><string>hideButton</string>
+						
+					</dict>
+					<dict>
+						<key>title1</key><string>??? ?? ??? ? ??</string>
+						<key>detail</key><string>? ?? ??? ?? ??????.</string>
+						<key>_layout</key><string>layout1</string>
+						<key>_action</key><string>actionDelete</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<key>hideLayout</key>
+		<dict>
+			<key>rowHeight</key><string>0</string>
+		</dict>
+		<key>cellLayout</key>
+		<dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>12</string>
+				<key>title</key><string>{@title1}--</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+		<key>layout1</key>
+		<dict>
+			<key>rowHeight</key><string>60</string>
+			<key>cellStyle</key>
+			<dict>
+				<key>selectionStyle</key><string>0</string>
+				<key>accessoryType</key><string>2</string>
+			</dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>12</string>
+				<key>bind</key><string>@title1</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+			<key>label2</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>15</string>
+				<key>bind</key><string>@detail</string>
+				<key>pos</key><string>30,25,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+		<key>actionHide</key>
+		<dict>
+			<key>type</key><string>event</string>
+			
+			<key>command</key><string>updateRows</string>
+			<key>conditions</key><string>@_layout=cellLayout</string>
+			<key>animationEffect</key><string>left</string>
+			<key>record</key>
+			<dict>
+				<key>_layout</key><string>hideLayout</string>
+			</dict>
+			
+			
+			<key>afterEvent</key>
+			<dict>
+				<key>type</key><string>event</string>
+				<key>command</key><string>updateRows</string>
+				<key>conditions</key><string>@recordName=hideButton</string>
+				<key>animationEffect</key><string>bottom</string>
+				<key>record</key>
+				<dict>
+					<key>title</key><string>??? ?? ??? ? ???.</string>
+					<key>detail</key><string>_layout ? ???? ??????.</string>
+					<key>_action</key><string>actionShow</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>actionShow</key>
+		<dict>
+			<key>type</key><string>event</string>
+			<key>command</key><string>updateRows</string>
+			<key>conditions</key><string>@_layout=hideLayout</string>
+			<key>animationEffect</key><string>right</string>
+			<key>record</key>
+			<dict>
+				<key>_layout</key><string>cellLayout</string>
+			</dict>
+			<key>afterEvent</key>
+			<dict>
+				<key>type</key><string>event</string>
+				<key>command</key><string>updateRows</string>
+				<key>conditions</key><string>@recordName=hideButton</string>
+				<key>animationEffect</key><string>top</string>
+				<key>record</key>
+				<dict>
+					<key>title</key><string>??? ?? ??? ? ???.</string>
+					<key>detail</key><string>_layout ? ???? ????..</string>
+					<key>_action</key><string>actionHide</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>actionDelete</key>
+		<dict>
+			<key>type</key><string>event</string>
+			<key>command</key><string>deleteRows</string>
+			<key>conditions</key><string>@_layout=cellLayout</string>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,98 @@
+<plist>
+	<dict>
+		<key>dataProvider</key>
+		<dict>
+			<key>type</key><string>systemdb</string>
+			<key>keyName</key><string>testData</string>
+		</dict>
+		<key>components</key>
+		<dict>
+			<key>text1</key>
+			<dict>
+				<key>type</key><string>textfield</string>
+				<key>fontsize</key><real>15</real>
+				<key>pos</key><string>10,10,300,25</string>
+				<key>bind</key><string>{@text1:default=}</string>
+			</dict>
+			<key>text2</key>
+			<dict>
+				<key>type</key><string>textfield</string>
+				<key>fontsize</key><real>15</real>
+				<key>pos</key><string>10,50,300,25</string>
+				<key>bind</key><string>{@text2:default=}</string>
+			</dict>
+			<key>button1</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>SAVEDATA AND GOBACK</string>
+				<key>pos</key><string>10,150,300,25</string>
+				<key>backgroundcolor</key><string>0.8,0.8,0.8,1</string>
+				<key>action</key>
+				<dict>
+					<key>validTest</key>
+					<array>
+						<dict>
+							<key>validFunction</key><string>notEmpty</string>
+							<!-- validFunction ?? ?? notEmpty ? ????.
+							??? ??? ??? ????? appDelegate ?? ??? ??? ??? ????? ?? ??.
+							-->	
+							<key>targetData</key><string>@self.text1</string>
+							<key>invalidAction</key>
+							<dict>
+								<key>type</key><string>alert</string>
+								<key>msg</key><string>??? ??? ?? ?????. </string>
+								<key>button</key>
+								<dict>
+									<key>title</key><string>OK</string>
+								</dict>
+							</dict>
+						</dict>
+						<dict>
+							<key>validFunction</key><string>notEmpty</string>
+							<key>targetData</key><string>@self.text2</string>
+							<key>invalidAction</key>
+							<dict>
+								<key>type</key><string>alert</string>
+								<key>msg</key><string>??? ??? ?? ?????. </string>
+								<key>button</key>
+								<dict>
+									<key>title</key><string>OK</string>
+								</dict>
+							</dict>							
+						</dict>
+					</array>
+					<key>type</key><string>batch</string>
+					<key>Actions</key>
+					<array>
+						<dict>
+							<key>type</key><string>saveParameterToDB</string>
+							<key>keyName</key><string>testData</string>
+							<key>extra</key>
+							<dict>
+								<key>parameter</key>
+								<dict>
+									<key>text1</key><string>@self.text1</string>
+									<key>text2</key><string>@self.text2</string>
+								</dict>
+							</dict>
+						</dict>	
+						<dict>
+							<key>type</key><string>event</string>
+							<key>command</key><string>goBack</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>	
+		</dict>
+	</dict>
+	<!--
+	public boolean evaluateFunction(Hashtable dict){
+		//dict ?? invalidTest  ?? ??? ?? ??? ?? ??. ??? ???? ??? ??? ??? ??? ???? ???? ??? ???? ??.
+		//?? false ?? invalidAction ? ????. ????? ??? ?? ??.
+		return true;
+	}
+	-(BOOL) evaluateFunction(NSDictionary dict){
+		return YES;
+	}
+	-->
+</plist>

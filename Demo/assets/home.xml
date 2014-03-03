@@ -1,0 +1,20 @@
+<plist version="1.0">
+	<dict>
+	
+	
+		<key>title</key><string>Snippet Examples</string>	
+        <key>bgcolor</key><string>1,1,1,1</string>		
+		<key>hidebackbtn</key><string>YES</string>
+		<key>components</key>
+		<dict>
+			<key>xlist</key>
+			<dict>
+				<key>type</key><string>class</string>
+				<key>class</key><string>XLIST</string>
+				<key>backgroundcolor</key><string>1,1,1,1</string>
+				<key>plist</key><string>examplelist.xml</string>
+				<key>pos</key><string>30,0,{@global.systemInfo.virtualWidth._add(-60)},{@global.systemInfo.virtualHeight._add(-80)}</string>    
+			</dict>
+		</dict>
+	</dict>
+</plist>

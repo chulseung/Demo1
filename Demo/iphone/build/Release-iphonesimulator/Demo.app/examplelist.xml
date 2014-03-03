@@ -1,0 +1,199 @@
+<plist>
+	<dict>
+		<key>dataProvider</key>
+		<dict>
+			<key>template</key>
+			<dict>
+				<key>tabledata</key>
+				<array>
+					<dict>
+						<key>title</key><string>loginSample.xml</string>
+						<key>detail</key><string>??? ??</string>
+					</dict>
+					<dict>
+						<key>title</key><string>MyCafe/addMember.xml</string>
+						<key>detail</key><string>????</string>
+					</dict>
+					<dict>
+						<key>title</key><string>MyCafe/MemberList.xml</string>
+						<key>detail</key><string>????</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>loginSample.xml</string>
+						<key>detail</key><string>??? ??</string>
+					</dict>
+					<dict>
+						<key>title</key><string>customActionAndNativeCode.xml</string>
+						<key>detail</key><string>??? ??? ???? ????</string>
+					</dict>
+					<dict>
+						<key>title</key><string>customProvider.xml</string>
+						<key>detail</key><string>??? ??? ?????</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>customSyncProvider.xml</string>
+						<key>detail</key><string>??? ??? ?????(Sync ??)</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>toggleButton.xml</string>
+						<key>detail</key><string>????</string>
+					</dict>
+					<dict>
+						<key>title</key><string>DataInputPage01.xml</string>
+						<key>detail</key><string>??? ?? ??? ???</string>
+					</dict>
+					<dict>
+						<key>title</key><string>callAction.xml</string>
+						<key>detail</key><string>???? ??, ???? ????</string>
+					</dict>
+					<dict>
+						<key>title</key><string>changeListItem.xml</string>
+						<key>detail</key><string>??? ???? ??? ???</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>useTemplate.xml</string>
+						<key>detail</key><string>???? ???? ??? ?? ???</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>useTemplate2.xml</string>
+						<key>detail</key><string>???? ?????? ??? ??? ???</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>hideListItem.xml</string>
+						<key>detail</key><string>????????,???,???</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>createComponentsEffect.xml</string>
+						<key>detail</key><string>???? ?????? ??</string>
+					</dict>
+					<dict>
+						<key>title</key><string>actionInHtml5.html</string>
+						<key>detail</key><string>????? ??(1)</string>
+						<key>_action</key><string>webaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>hybridExample.xml</string>
+						<key>detail</key><string>????? ??(2)</string>
+					</dict>
+					<dict>
+						<key>title</key><string>xtreeDataHandling.xml</string>
+						<key>detail</key><string>??? ???</string>
+						<key>_action</key><string>treeaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>createModalDialog.xml</string>
+						<key>detail</key><string>?? ????? ???</string>
+					</dict>
+					<dict>
+						<key>title</key><string>setFocusAndLandscape.xml</string>
+						<key>detail</key><string>????? ??????</string>
+					</dict>
+					<dict>
+						<key>title</key><string>addMoreList.xml</string>
+						<key>detail</key><string>???? ??? ????</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>pulldownToRefresh.xml</string>
+						<key>detail</key><string>????????????</string>
+						<key>_action</key><string>listaction</string>
+					</dict>
+					<dict>
+						<key>title</key><string>databaseAndValidtest.xml</string>
+						<key>detail</key><string>??????? ?????</string>
+					</dict>
+					<dict>
+						<key>title</key><string>dateAndTimePicker.xml</string>
+						<key>detail</key><string>??? ?? ??</string>
+					</dict>
+					<dict>
+						<key>title</key><string>horizontalScroll.xml</string>
+						<key>detail</key><string>??? ?? ???</string>
+					</dict>
+					<dict>
+						<key>title</key><string>imageStretch.xml</string>
+						<key>detail</key><string>??? ???</string>
+					</dict>
+					<dict>
+						<key>title</key><string>groupButton.xml</string>
+						<key>detail</key><string>?? ??</string>
+					</dict>
+					<dict>
+						<key>title</key><string>imagePicker.xml</string>
+						<key>detail</key><string>??? ??</string>
+					</dict>
+					<dict>
+						<key>title</key><string>segmentbutton.xml</string>
+						<key>detail</key><string>???? ??</string>
+					</dict>
+					<dict>
+						<key>title</key><string>radioButton.xml</string>
+						<key>detail</key><string>??? ??</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<key>cellLayout</key>
+		<dict>
+			<key>rowHeight</key><string>60</string>
+			<key target='android'>rowHeight</key><string>50</string>
+			<key>cellStyle</key>
+			<dict>
+				<key>selectionStyle</key><string>0</string>
+				<key>accessoryType</key><string>2</string>
+			</dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>12</string>
+				<key target='android'>fontsize</key><string>10</string>
+				<key>textcolor</key><string>0,0.2,0.7,1</string>
+				<key>bind</key><string>[{@title}]</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key target='android'>pos</key><string>30,0,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+			<key>label2</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>15</string>
+				<key target='android'>fontsize</key><string>12</string>
+				<key>bind</key><string>@detail</string>
+				<key>pos</key><string>30,32,300,25</string>
+				<key target='android'>pos</key><string>30,20,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+		<key>action</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XFORM</string>
+			<key>plist</key><string>SnippetExamples/{@title}</string>
+		</dict>
+		<key>listaction</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XLIST</string>
+			<key>plist</key><string>SnippetExamples/{@title}</string>
+		</dict>
+		<key>treeaction</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XTREE</string>
+			<key>plist</key><string>SnippetExamples/{@title}</string>
+		</dict>
+		<key>webaction</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XWEB</string>
+			<key>plist</key><string>SnippetExamples/{@title}</string>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,82 @@
+<plist>
+	<dict>
+		<key>components</key>
+		<dict>
+			<key>button3</key>
+			<dict>
+				<key>group</key><string>button3,button4</string>
+				<key>type</key><string>button</string>
+				<key>title</key><string>DATA3</string>
+				<key>backgroundcolor</key><string>0.7,0.7,0.7,1</string>
+				<key>fontsize</key><string>12</string>
+				<key>pos</key><string>20,350,100,30</string>
+				<key>action</key>
+					<string>#{	"type":"event",
+								"target":"self",
+								"command":"transition",
+								"components":{
+									"button3":{
+										"effect":{
+											"endPos":"20,150,100,30",
+											"duration":"0.3"
+										}
+									}
+								}
+							}
+					</string>
+				<key>unselectAction</key>
+					<string>#{	"type":"event",
+								"target":"self",
+								"command":"transition",
+								"components":{
+									"button3":{
+										"effect":{
+											"endPos":"20,350,100,30",
+											"duration":"0.3"
+										}
+									}
+								}
+							}
+					</string>
+			</dict>	
+			<key>button4</key>
+			<dict>
+				<key>group</key><string>button3,button4</string>
+				<key>type</key><string>button</string>
+				<key>title</key><string>DATA4</string>
+				<key>backgroundcolor</key><string>0.7,0.7,0.7,1</string>
+				<key>fontsize</key><string>12</string>
+				<key>pos</key><string>200,350,100,30</string>
+				
+				<key>action</key>
+					<string>#{	"type":"event",
+								"target":"self",
+								"command":"transition",
+								"components":{
+									"button4":{
+										"effect":{
+											"endPos":"200,150,100,30",
+											"duration":"0.3"
+										}
+									}
+								}
+							}
+					</string>
+				<key>unselectAction</key>
+					<string>#{	"type":"event",
+								"target":"self",
+								"command":"transition",
+								"components":{
+									"button4":{
+										"effect":{
+											"endPos":"200,350,100,30",
+											"duration":"0.3"
+										}
+									}
+								}
+							}
+					</string>
+			</dict>			
+		</dict>
+	</dict>
+</plist>

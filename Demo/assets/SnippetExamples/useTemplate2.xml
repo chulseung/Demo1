@@ -1,0 +1,75 @@
+<plist version="1.0">
+	<dict>
+		<key>localVariables</key>
+		<dict>
+			<key>tabledata</key>
+			<array>
+				<dict>
+					<key>title</key><string>data 1</string>
+					<key>subject</key><string>two</string>
+				</dict>
+				<dict>
+					<key>title</key><string>data 2</string>
+					<key>subject</key><string>one</string>
+				</dict>
+				<dict>
+					<key>title</key><string>data 3</string>
+					<key>subject</key><string>one</string>
+				</dict>
+				<dict>
+					<key>title</key><string>data 4</string>
+					<key>subject</key><string>two</string>
+				</dict>
+				<dict>
+					<key>title</key><string>data 5</string>
+					<key>subject</key><string>one</string>
+				</dict>
+				<dict>
+					<key>title</key><string>data 6</string>
+					<key>subject</key><string>two</string>
+				</dict>
+			</array>
+		</dict>
+		<key>dataProvider</key>
+		<dict>
+			<key>template</key>
+			<dict>
+				<key>tabledata</key>
+				<array>
+					<dict>
+						<key>arraySource</key><string>@local.tabledata</string>
+						<key>viewCondition</key><string>@subject=one</string>
+						<key>recordType</key>
+						<dict>
+							<key>title</key><string>[{@subject:?one|???|{@subject:?two|???|??}}-{@title}]</string>
+							<key>_layout</key><string>cellLayout</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>arraySource</key><string>@local.tabledata</string>
+						<key>viewCondition</key><string>@subject=two</string>
+						<key>recordType</key>
+						<dict>
+							<key>title</key><string>[{@subject:?one|???|{@subject:?two|???|??}}-{@title}]</string>
+							<key>_layout</key><string>cellLayout</string>
+						</dict>
+					</dict>					
+				</array>
+			</dict>
+		</dict>
+		<key>tableviewstyle</key><string>0</string>
+		<key>selectionStyle</key><string>1</string>
+		<key>accessoryType</key><string>1</string>
+		<key>cellLayout</key>
+		<dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>12</string>
+				<key>bind</key><string>@title</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+	</dict>
+</plist>

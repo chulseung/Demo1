@@ -1,0 +1,30 @@
+<plist>
+	<dict>
+		<key>class</key><string>XFORM</string>
+		<key>title</key><string>?????? ??</string>
+		<key>components</key>
+		<dict>
+			<key>image</key>
+			<dict>
+				<key>type</key><string>image</string>
+				<key>pos</key><string>20,110,280,35</string>
+				<key>image</key>
+				<dict>
+					<key>path</key><string>bluebutton.png</string>
+					<key>leftCap</key><string>10</string>
+				</dict>
+			</dict>
+			<key>button</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>IMAGE BUTTON</string>
+				<key>buttonimage</key>
+				<dict>
+					<key>path</key><string>bluebutton.png</string>
+					<key>leftCap</key><string>10</string>
+				</dict>
+				<key>pos</key><string>20,150,150,25</string>
+			</dict>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,89 @@
+<plist version="1.0">
+	<!-- ?? ?? ??? ?? ????, ? ?? ??? ???? ?? ??? ????.-->
+	<dict>
+		<key>bgcolor</key><string>0.01,0.01,0.01,0.6</string>
+		<key>components</key>
+		<dict>
+			<key>componentsOrder</key><string>textfield1,textfield2,button5,button6,button7,webview</string>
+			<key>textfield1</key>
+			<dict>
+				<key>type</key><string>textfield</string>
+				<key>fontsize</key><real>19</real>
+				<key>text</key><string></string>
+				<key>placeholder</key><string>???1</string>
+				<key>pos</key><string>10,10,300,25</string>
+				<key>keyboardtype</key><string>email</string>
+			</dict>
+			
+			<key>textfield2</key>
+			<dict>
+				<key>type</key><string>textfield</string>
+				<key>text</key><string></string>
+				<key>fontsize</key><real>17</real>
+				<key>placeholder</key><string>???2</string>
+				<key>pos</key><string>10,40,300,25</string>
+				<key>keyboardtype</key><string>email</string>
+			</dict>
+			
+			<key>button5</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>DUNAMIS->WEB</string>
+				<key>pos</key><string>10,70,130,25</string>
+				<key>backgroundcolor</key><string>0.8,0.8,0.6,1</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>processSequence</string>
+					<key>sequence</key>
+					<array>	
+						<string>{@self.webview._setInputText(text1,{@self.textfield1})}</string>
+						<string>{@self.webview._setInputText(text2,{@self.textfield2})}</string>
+					</array>
+				</dict>
+			</dict>
+			<key>button6</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>WEB->DUNAMIS</string>
+				<key>pos</key><string>180,70,130,25</string>
+				<key>backgroundcolor</key><string>0.8,0.8,0.6,1</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>processSequence</string>
+					<key>sequence</key>
+					<array>	
+						<string>{@self.textfield1._setText({@self.webview._getInputText(text2)})}</string>
+						<string>{@self.textfield2._setText({@self.webview._getInputText(text1)})}</string>
+					</array>
+				</dict>
+			</dict>
+
+			<key>button7</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>Execute Javascript</string>
+				<key>pos</key><string>180,100,130,25</string>
+				<key>backgroundcolor</key><string>0.8,0.8,0.6,1</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>processSequence</string>
+					<key>sequence</key>
+					<array>	
+						<string>{@self.webview._execute.alertScript('WEB ALERT')}</string>
+					</array>
+				</dict>
+			</dict>
+
+
+			<key>webview</key>
+			<dict>
+				<key>type</key><string>webview</string>
+				<key>base</key><string>/</string>
+				<key>url</key><string>http://dunamisplatform.co.kr:8080/flashbox/MANUAL/XML/sample/hybridExample.html</string>
+				<key>pos</key><string>10,150,300,200</string>
+			</dict>
+		</dict>
+	</dict>
+</plist>
+			
+				

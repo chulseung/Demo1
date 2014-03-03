@@ -1,0 +1,63 @@
+<plist version="1.0">
+	<dict>
+		<key>title</key><string>TOGGLE</string>
+		<key>headerlayout</key>
+		<dict>
+			<key>headerRight</key>
+			<dict>
+				<key>type</key><string>text</string>
+				<key>title</key><string>??</string>
+				<key target='android'>pos</key><string>0,2,80,33</string>
+				
+				<key>action</key>
+				<dict>
+					<key>type</key><string>toggle</string>
+					<key>lockclick</key><string>0.01</string><!--???????? ????? ??? ??? ? 2??? ??? ????? ???? ???? ?? ???, ? ??? ???? ???.-->
+					<key>currentState</key><string>firstState</string>
+					<key>firstState</key>
+					<dict>
+						<key>type</key><string>event</string>
+						<key>target</key><string>textview</string>
+						<key>command</key><string>setText</string>
+						<key>nextState</key><string>secondState</string>
+						<key>newTitle</key><string>??</string>
+						<key>text</key>
+						<string><![CDATA[
+?? ??? ???????.						
+						]]></string>
+					</dict>
+					<key>secondState</key>
+					<dict>
+						<key>type</key><string>event</string>
+						<key>target</key><string>textview</string>
+						<key>command</key><string>setText</string>
+						<key>nextState</key><string>firstState</string>
+						<key>newTitle</key><string>??</string>
+						<key>text</key>
+						<string><![CDATA[
+?? ??? ???????.												
+						]]></string>
+					</dict>					
+				</dict>				
+			</dict>
+		</dict>  		
+
+		
+		<key>components</key>
+		<dict>
+			<key>textview</key>
+			<dict>
+				<key>type</key><string>textview</string>
+	            <key>fontsize</key><real>12</real>
+	            <key>pos</key><string>0,0,320,460</string>
+				<key>text</key>
+				<string><![CDATA[
+??? ??? ??? ?? ?? ??? ?? ? ??.
+?? ??? ? ??? ???? ????? ???.					
+				]]></string>
+			</dict>
+		</dict>
+		
+	</dict>
+</plist>
+

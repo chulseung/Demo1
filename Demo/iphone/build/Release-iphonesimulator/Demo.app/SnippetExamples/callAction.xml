@@ -1,0 +1,83 @@
+<plist version="1.0">
+	<dict>
+		<key>bgcolor</key><string>0.01,0.01,0.01,0.6</string>
+		<key>components</key>
+		<dict>
+			<key>componentsOrder</key><string>textfield1,textfield2,button5,button6</string>
+			<key>textfield1</key>
+			<dict>
+				<key>type</key><string>textfield</string>
+				<key>fontsize</key><real>19</real>
+				<key>placeholder</key><string>???1</string>
+				<key>pos</key><string>40,100,240,30</string>
+				<key>keyboardtype</key><string>email</string>
+				<key>enabled</key><string>NO</string>
+			</dict>
+			
+			<key>textfield2</key>
+			<dict>
+				<key>type</key><string>textfield</string>
+				<key>fontsize</key><real>17</real>
+				<key>placeholder</key><string>???2</string>
+				<key>pos</key><string>40,200,240,30</string>
+				<key>keyboardtype</key><string>email</string>
+				<key>enabled</key><string>NO</string>
+			</dict>
+			
+			<key>button5</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>???</string>
+				<key>pos</key><string>40,300,100,30</string>
+				<key>backgroundcolor</key><string>0.5,0.8,0,0.3</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>callAction</string>
+					<key>name</key><string>callableaction</string>
+					<key>extra</key>
+					<dict>
+						<key>parameter</key>
+						<dict>
+							<key>message</key><string>OK</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+
+			<key>button6</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>???</string>
+				<key>pos</key><string>160,300,100,30</string>
+				<key>backgroundcolor</key><string>0.5,0.8,0,0.3</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>callAction</string>
+					<key>name</key><string>callableaction</string>
+					<key>extra</key>
+					<dict>
+						<key>parameter</key>
+						<dict>
+							<key>message</key><string>??</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		
+		
+		<key>callableaction</key>
+		<array>
+			<dict>
+				<key>type</key><string>alert</string>
+				<key>msg</key><string>callable action called</string>
+				<key>button</key>
+				<dict>
+					<key>title</key><string>@message</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</plist>
+
+				

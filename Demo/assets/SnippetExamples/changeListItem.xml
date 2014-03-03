@@ -1,0 +1,80 @@
+<plist version="1.0">
+	<dict>
+		<key>localVariables</key>
+		<dict>
+		</dict>	
+		<key>dataProvider</key>
+		<dict>
+			<key>template</key>
+			<dict>
+				<key>tabledata</key>
+				<array>
+					<dict>
+						<key>title</key><string>data 1</string>
+					</dict>
+					<dict>
+						<key>title</key><string>data 2</string>
+					</dict>
+					<dict>
+						<key>title</key><string>data 3</string>
+					</dict>
+					<dict>
+						<key>title</key><string>data 4</string>
+					</dict>
+					<dict>
+						<key>title</key><string>data 5</string>
+					</dict>
+					<dict>
+						<key>title</key><string>data 6</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<key>action</key>
+		<dict>
+			<key>type</key><string>batch</string>
+			<key>actions</key>
+			<array>
+				<dict>
+					<key>type</key><string>event</string>
+					<key>command</key><string>setObjectValues</string>
+					<key>values</key>
+					<dict>
+						<key>local.itemData</key>
+						<dict>
+							<key>title</key><string>NEWTITLE</string>
+						</dict>	
+					</dict>
+				</dict>
+				<dict>
+					<key>type</key><string>event</string>
+					<key>command</key><string>setObjectValues</string>
+					<key>values</key>
+					<dict>
+						<key>self.tabledata:{@self.selectedRowNum}</key><string>@local.itemData</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>type</key><string>event</string>
+					<key>command</key><string>reloadData</string>
+				</dict>
+			</array>
+		</dict>
+		<key>tableviewstyle</key><integer>0</integer>
+		<key>selectionStyle</key><integer>1</integer>
+		<key>accessoryType</key><integer>1</integer>
+		<key>cellLayout</key>
+		<dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><real>12</real>
+				<key>bind</key><string>@title</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+	</dict>
+
+	
+</plist>                                                                                               

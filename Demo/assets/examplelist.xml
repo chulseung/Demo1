@@ -1,0 +1,76 @@
+<plist>
+	<dict>
+		<key>dataProvider</key>
+		<dict>
+			<key>template</key>
+			<dict>
+				<key>tabledata</key>
+				<array>
+					<dict>
+						<key>title</key><string>demo1.xml</string>
+						<key>detail</key><string>demo1</string>
+					</dict>
+					<dict>
+						<key>title</key><string>demo2.xml</string>
+						<key>detail</key><string>demo2</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<key>cellLayout</key>
+		<dict>
+			<key>rowHeight</key><string>60</string>
+			<key target='android'>rowHeight</key><string>50</string>
+			<key>cellStyle</key>
+			<dict>
+				<key>selectionStyle</key><string>0</string>
+				<key>accessoryType</key><string>2</string>
+			</dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>12</string>
+				<key target='android'>fontsize</key><string>10</string>
+				<key>textcolor</key><string>0,0.2,0.7,1</string>
+				<key>bind</key><string>[{@title}]</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key target='android'>pos</key><string>30,0,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+			<key>label2</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>15</string>
+				<key target='android'>fontsize</key><string>12</string>
+				<key>bind</key><string>@detail</string>
+				<key>pos</key><string>30,32,300,25</string>
+				<key target='android'>pos</key><string>30,20,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+		<key>action</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XFORM</string>
+			<key>plist</key><string>samples/{@title}</string>
+		</dict>
+		<key>listaction</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XLIST</string>
+			<key>plist</key><string>SnippetExamples/{@title}</string>
+		</dict>
+		<key>treeaction</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XTREE</string>
+			<key>plist</key><string>SnippetExamples/{@title}</string>
+		</dict>
+		<key>webaction</key>
+		<dict>
+			<key>type</key><string>activity</string>
+			<key>class</key><string>XWEB</string>
+			<key>plist</key><string>SnippetExamples/{@title}</string>
+		</dict>
+	</dict>
+</plist>

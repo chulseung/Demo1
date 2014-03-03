@@ -1,0 +1,10 @@
+<plist>
+	<dict>
+		<key>caching</key><string>NO</string>
+		<!-- key>mapfile</key><string>sample/mapfile.xml</string-->
+		<!-- key>globalstyle</key><string>lig/gfile.xml</string-->
+		<key>updateUrl</key><string>http://somehost</string>
+		<key>homepage</key><string>home.xml</string>
+		<key>platformversion</key><string>1.0.0.0</string>
+	</dict>
+</plist>

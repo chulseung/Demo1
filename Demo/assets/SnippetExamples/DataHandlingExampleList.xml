@@ -1,0 +1,39 @@
+<plist version="1.0">
+	<dict>
+		<key>title</key><string>???</string>			
+		<key>dataProvider</key> 
+		<dict>
+			<!--key>xmlData</key><string>plist/MR_CT_R022D_1.xml</string-->
+			<key>type</key><string>passedRecord</string>
+			<key>fieldName</key><string>@extra.parameter.arrayData.tabledata</string>
+			<key>filter</key><string>cname=aaaa,date</string>	
+		</dict>
+		
+		
+		
+		<key>selectionStyle</key><integer>1</integer>
+		<key>accessoryType</key><integer>1</integer>
+		<key>rowHeight</key><real>50</real>
+		<key>cellLayout</key>
+		<dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><real>17</real>
+				<key>field</key><string>{@cname}</string>
+				<key>pos</key><string>10,5,300,20</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+			<key>label2</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><real>15</real>
+				<key>field</key><string>{@date}</string>
+				<key>pos</key><string>10,30,300,15</string>
+				<key>textalign</key><string>left</string>
+				<key>textcolor</key><string>0.2,0.2,0.2,1</string>
+			</dict>
+		</dict>		
+		
+	</dict>
+</plist>

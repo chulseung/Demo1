@@ -1,0 +1,207 @@
+<plist version="1.0">
+<!-- ? ??? ???? ???? ??? ???? ???  AppDelegate ???? ????? ??.-->
+	<dict>
+		<key>title</key><string></string>
+		<key>bgcolor</key><string>0.01,0.01,0.01,0.6</string>
+		<key>components</key>
+		<dict>
+			<key>componentsOrder</key><string>textfield1,textfield2,button,button2,button3</string>
+			<key>textfield1</key>
+			<dict>
+				<key>type</key><string>textfield</string>
+				<key>fontsize</key><real>19</real>
+				<key>placeholder</key><string>???</string>
+				<key>pos</key><string>40,50,240,30</string>
+				<key>keyboardtype</key><string>email</string>
+			</dict>
+			
+			<key>textfield2</key>
+			<dict>
+				<key>type</key><string>textfield</string>
+				<key>fontsize</key><real>17</real>
+				<key>placeholder</key><string>????</string>
+				<key>pos</key><string>40,100,240,30</string>
+				<key>keyboardtype</key><string>email</string>
+			</dict>
+			
+			<key>button</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>MANAGER ACTION</string>
+				<key>pos</key><string>40,200,240,30</string>
+				<key>backgroundcolor</key><string>0.5,0.8,0,1</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>manager</string>
+					<key>encoding</key><string>encryptedxml</string><!--encoding? url ? manager ??? ??? ????  -->
+					<key>url</key><string>http://localhost</string> <!--??? ???? ??? ??? ???? ??.  -->
+					<key>extra</key>
+					<dict>
+						<key>parameter</key>
+						<dict>
+							<key>code</key><string>test</string>
+							<key>text1</key><string>@self.textfield1</string>
+							<key>text2</key><string>@self.textfield2</string>
+						</dict>
+					</dict>
+					<key>SUCCESS</key>
+					<dict>
+						<key>action</key>
+						<dict>
+							<key>type</key><string>alert</string>
+							<key>msg</key><string>???????.</string>
+							<key>button</key>
+							<dict>
+								<key>title</key><string>??</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>FAIL</key>
+					<dict>
+						<key>type</key><string>alert</string>
+						<key>msg</key><string>???????.</string>
+						<key>button</key>
+						<dict>
+							<key>title</key><string>??</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>button2</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>CUSTOM ACTION</string>
+				<key>pos</key><string>40,250,240,30</string>
+				<key>backgroundcolor</key><string>0.5,0.8,0,1</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>custom</string>
+					<key>method</key><string>callAction</string>
+					<key>extra</key>
+					<dict>
+						<key>parameter</key>
+						<dict>
+							<key>text1</key><string>@self.textfield1</string>
+							<key>text2</key><string>@self.textfield2</string>
+						</dict>
+					</dict>
+					<key>CUSTOMSUCCESS</key>
+					<dict>
+						<key>type</key><string>alert</string>
+						<key>message</key><string>CUSTOM ACTION ???????.</string>
+						<key>button</key>
+						<dict>
+							<key>title</key><string>??</string>
+						</dict>
+					</dict>					
+					
+				</dict>
+			</dict>
+			<key>button3</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>RESPONSE ACTION</string>
+				<key>pos</key><string>40,300,240,30</string>
+				<key>backgroundcolor</key><string>0.5,0.8,0,1</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>custom</string>
+					<key>method</key><string>responseAction</string>
+					<key>extra</key>
+					<dict>
+						<key>parameter</key>
+						<dict>
+							<key>text1</key><string>@self.textfield1</string>
+							<key>text2</key><string>@self.textfield2</string>
+						</dict>
+					</dict>
+					<key>CUSTOMSUCCESS</key>
+					<dict>
+						<key>type</key><string>alert</string>
+						<key>message</key><string>CUSTOM ACTION ???????.</string>
+						<key>button</key>
+						<dict>
+							<key>title</key><string>??</string>
+						</dict>
+					</dict>					
+				</dict>
+			</dict>			
+		</dict>
+		<!-- ???? ???? ?? xml ? ??? ??? ???? ? ??. ?? ??? ??? ????.-->
+		<key>accessibleFromNative</key>
+		<dict>
+			<key>type</key><string>alert</string>
+			<key>msg</key><string>???????.</string>
+			<key>button</key>
+			<dict>
+				<key>title</key><string>??</string>
+			</dict>
+		</dict>	
+	</dict>
+<!--
+
+??? ???  custom ? manager ??? ??? ? ??? native code ? ??? ? ??? ?????.
+manager ??? ?? ??? ???? ??? ?, ???? ???? ? ???? ?? ???? ???? ???? ?? ?? ??? ? ?? ????.
+??? ? ???? ?? ???  dataProvider ?? ??? ?? ??? ???? ????.
+
+	@Override
+	public void loadXmlData(String url, Hashtable params, Hashtable dataProvider)
+			throws Exception {
+		requestWillStart();
+		String code = (String) params.get("code");
+		if (code != null && code.equals("test")) {
+		} else if (code != null && code.equals("loadData")) {
+			String buffer = "<plist><dict><key>_state_</key><string>SUCCESS</string></dict></plist>";
+			XMLPROP xmlProp = new XMLPROP(new ByteArrayInputStream(buffer.getBytes()));
+			Hashtable plist = xmlProp.getPlist();
+			MANAGER.log("loadXmlData " + plist);
+			processXmlData(plist, dataProvider);
+		} else {
+		}
+	}
+		
+- (void)loadXmlData:(NSString *)xmlData params:(NSDictionary *)params  dataProvider:(NSDictionary *)dataProvider{
+	NSError *_error;
+	NSURLResponse *response;
+	NSData *dataReply;
+	NSString *stringReply;
+	NSLog(@"loadXmlData %@",params);
+	stringReply = [NSString stringWithFormat:@"<plist><dict><key>_state_</key><string>SUCCESS</string></dict></plist>"];
+	XMLPROP *xmlProp=[dataProvider objectForKey:@"xmlProp"];
+	[xmlProp parseXmlDoc:stringReply];
+	//[xmlProp setPlist:ret];
+	[xmlProp performTargetAction];
+}
+	
+-(NSMutableDictionary * ) doCustomAction:(NSDictionary *)action bundle:(NSDictionary *)bundle navigator:(UINavigationController *)navigator{
+	NSString *method=[action valueForKey:@"method"];
+	//NSString *command=[action valueForKey:@"command"];
+	NSDictionary *extra=[action objectForKey:@"extra"];
+	NSLog(@"custom %@ %@",method,bundle);
+	NSMutableDictionary *param=nil;
+	NSMutableDictionary *ret=[NSMutableDictionary dictionary];
+	if([method isEqualToString:@"addTextField"]){
+		if(extra!=nil){
+			param=(NSMutableDictionary *)[extra objectForKey:@"parameter"];
+			UITextView *view=[param objectForKey:@"text1"];
+			NSLog(@"PARAM %@ %d",view.text,0);
+			if(view.text==nil||[view.text length]==0){
+				view.text=@"1";
+			}else{
+				int a=[view.text intValue];
+				a++;
+				view.text=[NSString stringWithFormat:@"%d",a];			
+			}
+		}
+	}else if([method isEqualToString:@"callAction"]){
+		[self processActionOfName:@"accessibleFromNative" source:nil];
+	}else if([method isEqualToString:@"responseAction"]){
+		[ret setObject:@"CUSTOMSUCCESS" forKey:@"_state_"];
+	}
+	return ret;
+}
+	
+-->
+</plist>
+
+				

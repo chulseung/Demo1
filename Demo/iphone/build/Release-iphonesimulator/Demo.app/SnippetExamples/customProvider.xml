@@ -1,0 +1,29 @@
+<plist version="1.0">
+	<dict>
+		<key>dataProvider</key>
+		<dict>
+			<key>xmlData</key><string>http://localhost</string><!--  -->
+			<key>encoding</key><string>encryptedxml</string><!--  ???? ??? loadXmlData ? ???? ???? encoding=encryptedxml ??? ?? xmlData ?? ??? ???? ??.-->
+			<key>parameter</key>
+			<dict>
+				<key>code</key><string>loadData</string>
+				<key>param1</key><string>data1</string>
+				<key>param2</key><string>data2</string>
+			</dict>
+		</dict>
+		<key>tableviewstyle</key><integer>0</integer>
+		<key>selectionStyle</key><integer>1</integer>
+		<key>accessoryType</key><integer>1</integer>
+		<key>cellLayout</key>
+		<dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><real>12</real>
+				<key>bind</key><string>@title</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+	</dict>
+</plist>                                                                                               

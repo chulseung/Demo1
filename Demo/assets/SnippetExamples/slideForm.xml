@@ -1,0 +1,146 @@
+<plist>
+	<dict>
+		<key>dataProvider</key>
+		<dict>
+			<key>template</key>
+			<dict>
+				<key>tabledata</key>
+				<array>
+					<dict>
+						<key>title</key><string>Slideing Controller</string>
+						<key>_action</key><string>slidingaction</string>
+					</dict>	
+					<dict>
+						<key>title</key><string>Slideing Controller</string>
+						<key>link</key><string></string>
+						<key>_action</key><string>slidingaction</string>
+					</dict>	
+					<dict>
+						<key>title</key><string>Slideing Controller</string>
+						<key>link</key><string></string>
+						<key>_action</key><string>slidingaction</string>
+					</dict>	
+					<dict>
+						<key>title</key><string>Slideing Controller</string>
+						<key>link</key><string></string>
+						<key>_action</key><string>slidingaction</string>
+					</dict>	
+					<dict>
+						<key>title</key><string>Slideing Controller</string>
+						<key>link</key><string></string>
+						<key>_action</key><string>slidingaction</string>
+					</dict>	
+				</array>
+			</dict>	
+		</dict>
+		<key>tableviewstyle</key><integer>0</integer>		
+		<key>slidingaction</key>
+		<dict>
+            <key>type</key><string>activity</string>
+            <key>class</key><string>SFRAME</string>
+            <key>centerWindow</key>
+            <dict>
+                <key>class</key><string>XFORM</string>
+                <key>plist</key><string>home.xml</string>
+			</dict>
+			
+            <key>leftWindow</key>
+            <dict>
+                <key>class</key><string>XLIST</string>
+                <key>plist</key><string>home2.xml</string>
+			</dict>
+            <key>rightWindow</key>
+            <dict>
+                <key>class</key><string>XLIST</string>
+                <key>plist</key><string>home.xml</string>
+			</dict>            
+		</dict>
+        
+		<key>changesliding</key>
+		<dict>
+            <key>type</key><string>changeSlidingViewer</string>
+            <key>centerWindow</key>
+            <dict>
+                <key>class</key><string>XFORM</string>
+                <key>plist</key><string>@link</string>
+			</dict>
+		</dict>
+        
+		<key>action</key>
+		<dict>
+            <key>type</key><string>activity</string>
+            <key>class</key><string>XFORM</string>
+            <key>plist</key><string>sample/content.xml</string>
+			<key>extra</key>
+			<dict>
+				<key>passRecord</key><string>YES</string>
+				<key>parameter</key>
+				<dict>
+					<key>page</key><string>@page</string>
+					<key>title</key><string>@title</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>formaction</key>
+		<dict>
+            <key>type</key><string>activity</string>
+            <key>class</key><string>XFORM</string>
+            <key>plist</key><string>@link</string>
+			<key>extra</key>
+			<dict>
+				<key>passRecord</key><string>YES</string>
+				<key>parameter</key>
+				<dict>
+					<key>page</key><string>@page</string>
+					<key>title</key><string>@title</string>
+				</dict>
+			</dict>
+		</dict>
+        
+		<key>xlistaction</key>  
+		<dict>
+            <key>type</key><string>activity</string>
+            <key>class</key><string>XLIST</string>
+            <key>plist</key><string>@link</string>
+			<key>extra</key>
+			<dict>
+				<key>passRecord</key><string>YES</string>
+				<key>parameter</key>
+				<dict>
+					<key>page</key><string>@page</string>
+					<key>title</key><string>@title</string>
+				</dict>
+			</dict>
+		</dict>
+        
+		<key>xtreeaction</key>  
+		<dict>
+            <key>type</key><string>activity</string>
+            <key>class</key><string>XTREE</string>
+            <key>plist</key><string>@link</string>
+			<key>extra</key>
+			<dict>
+				<key>passRecord</key><string>YES</string>
+				<key>parameter</key>
+				<dict>
+					<key>page</key><string>@page</string>
+					<key>title</key><string>@title</string>
+				</dict>
+			</dict>
+		</dict>
+        
+		<key>selectionStyle</key><integer>1</integer>
+		<key>accessoryType</key><integer>1</integer>
+		<key>cellLayout</key>
+		<dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><real>12</real>
+				<key>bind</key><string>@title</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,56 @@
+<plist>
+	<dict>
+		<key>title</key><string>SAMPLE</string>
+		<key>bgcolor</key><string>0,0,0,0.1</string>
+		<key>hidebackbtn</key><string>YES</string>
+		<key>hidenavbar</key><string>NO</string>
+		
+		<key>components</key>
+		<dict>
+			<key>componentsOrder</key><string>label_name,textfield_name,button_name</string>
+			<key>label_name</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>title</key><string></string>
+				<key>textcolor</key><string>0,0,0,1</string>
+				<key>pos</key><string>60,60,200,49</string>
+				<key>backgroundcolor</key><string>0,1,0,0.1</string>
+				<key>fontsize</key><string>15</string>
+				<key>align</key><string>center</string>
+				<key>linenum</key><string>2</string>
+			</dict>
+			<key>textfield_name</key>
+			<dict>
+				<key>type</key><string>textfield</string>
+				<key>pos</key><string>60,120,200,30</string>
+				<key>placeholder</key><string></string>
+				<key>fontsize</key><string>15</string>
+				<key>textcolor</key><string>0,0,0,1</string>
+			</dict>
+			<key>button_name</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>HELLO BUTTON</string>
+				<key>backgroundcolor</key><string>0.8,0.8,0.8,1</string>
+				<key>pos</key><string>60,168,200,97</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>manager</string>
+					<key>url</key><string>http://ip.jsontest.com/</string>
+				</dict>
+			</dict>
+		</dict>
+		
+		<key>ALERT</key>
+		<dict>
+			<key>type</key><string>alert</string>
+			<key>msg</key><string>@message</string>
+			<key>button</key>
+			<dict>
+				<key>title</key><string>??</string>
+			</dict>
+		</dict>
+		
+		
+	</dict>
+</plist>

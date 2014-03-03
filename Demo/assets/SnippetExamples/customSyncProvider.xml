@@ -1,0 +1,117 @@
+<plist version="1.0">
+	<dict>
+		<key>dataProvider</key>
+		<dict>
+			<key>type</key><string>custom</string><!-- ??? custom ? ? native code ? getCustomData ? ????, ? ??? ??? plist ? ???? ??.-->
+			<key>method</key><string>sampletest</string>			
+			<key>parameter</key>
+			<dict>
+				<key>code</key><string>customsyncdata</string>
+			</dict>
+
+		</dict>
+
+		<key>tableviewstyle</key><integer>0</integer>
+		<key>sampleaction</key>
+		<dict>
+            <key>type</key><string>activity</string>
+            <key>class</key><string>XFORM</string>
+            <key>plist</key><string>sample/samplecontent.xml</string>
+			<key>extra</key>
+			<dict>
+				<key>passRecord</key><string>YES</string>
+				<key>parameter</key>
+				<dict>
+					<key>explain</key><string>@explain</string>
+					<key>page</key><string>@page</string>
+					<key>title</key><string>@title</string>
+				</dict>
+			</dict>
+		</dict>
+		
+		
+		<key>selectionStyle</key><integer>1</integer>
+		<key>accessoryType</key><integer>1</integer>
+		<key>cellLayout</key>
+		<dict>
+			<key>label1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><real>12</real>
+				<key>bind</key><string>@title</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+	</dict>
+<!--
+//????????? ??? custom ?? ???? ?????? ??? ?????? ??? XML ? ????.
+
+//?????? ?? 
+	public Hashtable getCustomData(Hashtable dataProvider) {
+		try {
+			String stringReply = "<plist><dict>";
+			stringReply+="<plist><dict>";
+			stringReply+="<key>tabledata</key>";
+			stringReply+="<array>";
+			stringReply+="<dict>";
+			stringReply+="<key>title</key><string>title1</string>";
+			stringReply+="</dict>";
+			stringReply+="<dict>";
+			stringReply+="<key>title</key><string>title2</string>";
+			stringReply+="</dict>";
+			stringReply+="<dict>";
+			stringReply+="<key>title</key><string>title3</string>";
+			stringReply+="</dict>";
+			stringReply+="<dict>";
+			stringReply+="<key>title</key><string>title4</string>";
+			stringReply+="</dict>";
+			stringReply+="<dict>";
+			stringReply+="<key>title</key><string>title5</string>";
+			stringReply+="</dict>";
+			stringReply+="</array>";
+			stringReply+="</dict></plist>";			
+			XMLPROP xmlProp = new XMLPROP(new ByteArrayInputStream(
+					stringReply.getBytes()));
+			Hashtable plist = xmlProp.getPlist();
+			return plist;
+		} catch (Exception t) {
+			System.out.println(t.toString());
+			return null;
+		}
+	}	
+
+	
+//???? ?? 
+-(NSDictionary *)getCustomData:(NSDictionary *)dataProvider{
+	NSString *method=[dataProvider valueForKey:@"method"];
+	NSLog(@"getCustomData %@",dataProvider);
+	if([method isEqualToString:@"sampletest"]){
+		NSString *str=[NSString stringWithString:@"<plist><dict>"];
+		str=[self append:str with:@"<key>tabledata</key>"];
+		str=[self append:str with:@"<array>"];
+		str=[self append:str with:@"<dict>"];
+		str=[self append:str with:@"<key>title</key><string>title1</string>"];
+		str=[self append:str with:@"</dict>"];
+		str=[self append:str with:@"<dict>"];
+		str=[self append:str with:@"<key>title</key><string>title2</string>"];
+		str=[self append:str with:@"</dict>"];
+		str=[self append:str with:@"<dict>"];
+		str=[self append:str with:@"<key>title</key><string>title3</string>"];
+		str=[self append:str with:@"</dict>"];
+		str=[self append:str with:@"<dict>"];
+		str=[self append:str with:@"<key>title</key><string>title4</string>"];
+		str=[self append:str with:@"</dict>"];
+		str=[self append:str with:@"<dict>"];
+		str=[self append:str with:@"<key>title</key><string>title5</string>"];
+		str=[self append:str with:@"</dict>"];
+		str=[self append:str with:@"</array>"];
+		str=[self append:str with:@"</dict></plist>"];
+		NSMutableDictionary *dict=[self makePlist:str];
+		return dict;	
+	}
+	return nil;
+}
+-->
+	
+</plist>                                                                                               
