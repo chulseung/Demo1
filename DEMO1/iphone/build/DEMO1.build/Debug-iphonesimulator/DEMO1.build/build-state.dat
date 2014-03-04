@@ -1,0 +1,542 @@
+TDEMO1
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/Info.plist /Users/cslim/git/repo/DEMO1/iphone/DEMO1-Info.plist
+cCpResource /Users/cslim/git/repo/DEMO1/assets/first.xml build/Debug-iphonesimulator/DEMO1.app/first.xml
+cCompileXIB /Users/cslim/git/repo/DEMO1/iphone/MainWindow.xib
+cCpResource /Users/cslim/git/repo/DEMO1/assets/home.xml build/Debug-iphonesimulator/DEMO1.app/home.xml
+cCpResource /Users/cslim/git/repo/DEMO1/assets/mapfile.xml build/Debug-iphonesimulator/DEMO1.app/mapfile.xml
+cCpResource /Users/cslim/git/repo/DEMO1/assets/systemversion.txt build/Debug-iphonesimulator/DEMO1.app/systemversion.txt
+cCpResource /Users/cslim/git/repo/DEMO1/assets/xlist.xml build/Debug-iphonesimulator/DEMO1.app/xlist.xml
+cCpResource /Users/cslim/git/repo/DEMO1/assets/button.xml build/Debug-iphonesimulator/DEMO1.app/button.xml
+cProcessPCH /var/folders/hc/1r9mg2q577z0q47qd298jj7w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/DEMO1_Prefix-bbfvvcqycbyjqrhhoywauiheczlg/DEMO1_Prefix.pch.pch DEMO1_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.o /Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.o /Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.o /Users/cslim/git/repo/DEMO1/iphone/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO1 normal i386
+cGenerateDSYMFile /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app.dSYM /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO1
+cTouch /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c0000000052801FDF0000000000000176
+t1384128479
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000523ABCB700000000000003B5
+t1379581111
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052801F6D00000000000001A0
+t1384128365
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000052801F6E0000000000191F30
+t1384128366
+s1646384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000052801F6F00000000004F2C70
+t1384128367
+s5188720
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000052801F6E0000000000059350
+t1384128366
+s365392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000052801F7000000000009040F0
+t1384128368
+s9453808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000052801F6F00000000005838D0
+t1384128367
+s5781712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052801F700000000000445870
+t1384128368
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+c0000000052801F710000000000365370
+t1384128369
+s3560304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/EventKitUI.framework/EventKitUI
+c0000000052801F7100000000003FE620
+t1384128369
+s4187680
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052801F72000000000088C680
+t1384128370
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000052801F7200000000002C78D0
+t1384128370
+s2914512
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000052801F73000000000070DDC0
+t1384128371
+s7396800
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c0000000052801F7200000000002A0770
+t1384128370
+s2754416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000052801F7200000000001BA530
+t1384128370
+s1811760
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000052801F730000000000037620
+t1384128371
+s226848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000052801F7300000000004848F0
+t1384128371
+s4737264
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000052801F7300000000001290B0
+t1384128371
+s1216688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000052801F7400000000001081B0
+t1384128372
+s1081776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000052801F770000000001DB9910
+t1384128375
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libsqlite3.0.dylib
+c00000000523ABCD700000000001D3590
+t1379581143
+s1914256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libz.1.1.3.dylib
+c00000000523ABCD7000000000002B700
+t1379581143
+s177920
+
+N/Users/cslim/git/repo/DEMO1/assets/button.xml
+c00000000531539C000000000000002FF
+t1393899968
+s767
+
+N/Users/cslim/git/repo/DEMO1/assets/first.xml
+c0000000053142A1D00000000000001F5
+t1393830429
+s501
+
+N/Users/cslim/git/repo/DEMO1/assets/home.xml
+c00000000531535E40000000000000974
+t1393898980
+s2420
+
+N/Users/cslim/git/repo/DEMO1/assets/mapfile.xml
+c000000005314182E0000000000000088
+t1393825838
+s136
+
+N/Users/cslim/git/repo/DEMO1/assets/systemversion.txt
+c0000000053153FE5000000000000000D
+t1393901541
+s13
+
+N/Users/cslim/git/repo/DEMO1/assets/xlist.xml
+c0000000053153FC20000000000000B9D
+t1393901506
+s2973
+
+N/Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.m
+c000000005314182E0000000000000CE4
+t1393825838
+s3300
+
+N/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m
+c000000005314182E0000000000000B67
+t1393825838
+s2919
+
+N/Users/cslim/git/repo/DEMO1/iphone/DEMO1-Info.plist
+c000000005314182E000000000000038D
+t1393825838
+s909
+
+N/Users/cslim/git/repo/DEMO1/iphone/DEMO1_Prefix.pch
+c000000005314182E00000000000000C3
+t1393825838
+s195
+
+N/Users/cslim/git/repo/DEMO1/iphone/MainWindow.xib
+c000000005314182E00000000000020FE
+t1393825838
+s8446
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1.LinkFileList
+c0000000053153FEB000000000000016D
+t1393901547
+s365
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.o
+t1393901548
+s78168
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.o
+t1393901548
+s64184
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.o
+t1393901548
+s3904
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app
+t1393901549
+s408
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app.dSYM
+t2
+s0
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO1
+t1393901549
+s2933136
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/Info.plist
+t1393901547
+s580
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/MainWindow.nib
+t1393901548
+s1614
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/PkgInfo
+t1393901547
+s8
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/button.xml
+t1393901547
+s767
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/first.xml
+t1393901547
+s501
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/home.xml
+t1393901547
+s2420
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/mapfile.xml
+t1393901547
+s136
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/systemversion.txt
+t1393901547
+s13
+
+N/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/xlist.xml
+t1393901547
+s2973
+
+N/Users/cslim/git/repo/DEMO1/iphone/libDunamisCoreDevice.a
+c000000005314182E00000000009708A8
+t1393825838
+s9898152
+
+N/Users/cslim/git/repo/DEMO1/iphone/libDunamisCoreSimul.a
+c000000005314182E00000000008DC498
+t1393825838
+s9290904
+
+N/Users/cslim/git/repo/DEMO1/iphone/main.m
+c000000005314182E0000000000000170
+t1393825838
+s368
+
+N/var/folders/hc/1r9mg2q577z0q47qd298jj7w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/DEMO1_Prefix-bbfvvcqycbyjqrhhoywauiheczlg/DEMO1_Prefix.pch.pch
+t1393899543
+s5331568
+
+CBuild AST from /Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.m
+r0
+
+CBuild AST from /Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m
+r0
+
+CBuild AST from /Users/cslim/git/repo/DEMO1/iphone/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5b5d4e6b77c5b841^74eb556b77c5b841^---0#1#1#--18"Check dependencies36"12EF6DEE-B5F0-489A-853E-F675CE11B11E-
+
+CCompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.o /Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415594348.722298
+e415594348.884506
+r1
+xCompileC
+xbuild/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.o
+x/Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.m
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/PROTOAppDelegate.h
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/XMLPROP.h
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/TBXML.h
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.h
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.m194"CompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.o Classes/DEMO1AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1502b96c77c5b841^0471e26c77c5b841^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.m0000000000000000^3276"CompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.o Classes/DEMO1AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cslim/git/repo/DEMO1/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.3 -iquote /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-generated-files.hmap -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-own-target-headers.hmap -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-all-target-headers.hmap -iquote /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-project-headers.hmap -I/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DerivedSources/i386 -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DerivedSources -F/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator -include /var/folders/hc/1r9mg2q577z0q47qd298jj7w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/DEMO1_Prefix-bbfvvcqycbyjqrhhoywauiheczlg/DEMO1_Prefix.pch -MMD -MT dependencies -MF /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.d --serialize-diagnostics /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.dia -c /Users/cslim/git/repo/DEMO1/iphone/Classes/DEMO1AppDelegate.m -o /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.o36"BB3F237D-F344-4192-931B-0AC7F94C766A-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CCompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.o /Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415594348.722299
+e415594348.883178
+r1
+xCompileC
+xbuild/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.o
+x/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.h
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/PROTOAppDelegate.h
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/XMLPROP.h
+d/Users/cslim/git/repo/DEMO1/iphone/Classes/TBXML.h
+o/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m:8:15: warning: using 'stringWithString:' with a literal is redundant [-Wobjc-redundant-literal-use]
+o        projectName=[[NSString stringWithString:@"DUNAMIS_IPHONE"] retain];
+o                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m:46:10: warning: unused variable 'dataReply' [-Wunused-variable]
+o        NSData *dataReply;
+o                ^
+o/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m:45:17: warning: unused variable 'response' [-Wunused-variable]
+o        NSURLResponse *response;
+o                       ^
+o/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m:44:11: warning: unused variable '_error' [-Wunused-variable]
+o        NSError *_error;
+o                 ^
+o4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m192"CompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.o Classes/DunamisDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7906b96c77c5b841^b117e26c77c5b841^-844"/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m:8:15: warning: using 'stringWithString:' with a literal is redundant [-Wobjc-redundant-literal-use]        projectName=[[NSString stringWithString:@"DUNAMIS_IPHONE"] retain];                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m:46:10: warning: unused variable 'dataReply' [-Wunused-variable]        NSData *dataReply;                ^/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m:45:17: warning: unused variable 'response' [-Wunused-variable]        NSURLResponse *response;                       ^/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m:44:11: warning: unused variable '_error' [-Wunused-variable]        NSError *_error;                 ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@53"Using 'stringWithString:' with a literal is redundant-415594348#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@76"file://localhost/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m0000000000000000^7#14#7#14#138#0#15"Cocoa API Issue3(3@76"file://localhost/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m0000000000000000^7#14#7#59#138#44#3@76"file://localhost/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m0000000000000000^7#14#7#41#138#27#3@76"file://localhost/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m0000000000000000^7#58#7#59#182#1#-2@27"Unused variable 'dataReply'-415594348#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@76"file://localhost/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m0000000000000000^45#9#45#9#1475#0#19"Unused Entity Issue--2@26"Unused variable 'response'-415594348#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@76"file://localhost/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m0000000000000000^44#16#44#16#1456#0#19"Unused Entity Issue--2@24"Unused variable '_error'-415594348#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@76"file://localhost/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m0000000000000000^43#10#43#10#1432#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@76"file://localhost/Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m0000000000000000^3270"CompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.o Classes/DunamisDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cslim/git/repo/DEMO1/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.3 -iquote /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-generated-files.hmap -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-own-target-headers.hmap -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-all-target-headers.hmap -iquote /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-project-headers.hmap -I/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DerivedSources/i386 -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DerivedSources -F/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator -include /var/folders/hc/1r9mg2q577z0q47qd298jj7w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/DEMO1_Prefix-bbfvvcqycbyjqrhhoywauiheczlg/DEMO1_Prefix.pch -MMD -MT dependencies -MF /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.d --serialize-diagnostics /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.dia -c /Users/cslim/git/repo/DEMO1/iphone/Classes/DunamisDelegate.m -o /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.o36"C84FCE87-F7B4-4F0A-ABE8-21591016C68C-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CCompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.o /Users/cslim/git/repo/DEMO1/iphone/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s415594348.722305
+e415594348.780022
+r1
+xCompileC
+xbuild/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.o
+x/Users/cslim/git/repo/DEMO1/iphone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/cslim/git/repo/DEMO1/iphone/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Compile /Users/cslim/git/repo/DEMO1/iphone/main.m162"CompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9a06b96c77c5b841^96afc76c77c5b841^---0#0#1#-19%DVTDocumentLocation2@57"file://localhost/Users/cslim/git/repo/DEMO1/iphone/main.m0000000000000000^3188"CompileC build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/cslim/git/repo/DEMO1/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.3 -iquote /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-generated-files.hmap -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-own-target-headers.hmap -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-all-target-headers.hmap -iquote /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DEMO1-project-headers.hmap -I/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DerivedSources/i386 -I/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/DerivedSources -F/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator -include /var/folders/hc/1r9mg2q577z0q47qd298jj7w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/DEMO1_Prefix-bbfvvcqycbyjqrhhoywauiheczlg/DEMO1_Prefix.pch -MMD -MT dependencies -MF /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.dia -c /Users/cslim/git/repo/DEMO1/iphone/main.m -o /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.o36"B656C658-9D21-43D9-9B39-FFE95BF51459-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CCompileXIB /Users/cslim/git/repo/DEMO1/iphone/MainWindow.xib
+s415594347.348483
+e415594348.712232
+r1
+xCompileXIB
+x/Users/cslim/git/repo/DEMO1/iphone/MainWindow.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compiling /Users/cslim/git/repo/DEMO1/iphone/MainWindow.xib25"CompileXIB MainWindow.xib5e4a596b77c5b841^c155b66c77c5b841^---0#0#1#-19%DVTDocumentLocation2@65"file://localhost/Users/cslim/git/repo/DEMO1/iphone/MainWindow.xib0000000000000000^706"CompileXIB MainWindow.xib    cd /Users/cslim/git/repo/DEMO1/iphone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 4.3 --output-format human-readable-text --compile /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/MainWindow.nib /Users/cslim/git/repo/DEMO1/iphone/MainWindow.xib36"2CBC3369-A8CD-49A0-9B39-9788D027720B-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CCpResource /Users/cslim/git/repo/DEMO1/assets/button.xml build/Debug-iphonesimulator/DEMO1.app/button.xml
+s415594347.355936
+e415594347.358118
+r1
+xCpResource
+x/Users/cslim/git/repo/DEMO1/assets/button.xml
+xbuild/Debug-iphonesimulator/DEMO1.app/button.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphonesimulator/DEMO1.app/button.xml105"CpResource /Users/cslim/git/repo/DEMO1/assets/button.xml build/Debug-iphonesimulator/DEMO1.app/button.xmle4315b6b77c5b841^42af5b6b77c5b841^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/button.xml00383883ddffdf42^574"CpResource /Users/cslim/git/repo/DEMO1/assets/button.xml build/Debug-iphonesimulator/DEMO1.app/button.xml    cd /Users/cslim/git/repo/DEMO1/iphone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cslim/git/repo/DEMO1/assets/button.xml /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app36"41C0093C-9BEE-426E-B17B-1536C9114D4E-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CCpResource /Users/cslim/git/repo/DEMO1/assets/first.xml build/Debug-iphonesimulator/DEMO1.app/first.xml
+s415594347.348461
+e415594347.352174
+r1
+xCpResource
+x/Users/cslim/git/repo/DEMO1/assets/first.xml
+xbuild/Debug-iphonesimulator/DEMO1.app/first.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Debug-iphonesimulator/DEMO1.app/first.xml103"CpResource /Users/cslim/git/repo/DEMO1/assets/first.xml build/Debug-iphonesimulator/DEMO1.app/first.xml6f4a596b77c5b841^89285a6b77c5b841^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/first.xml00383883ddffdf42^571"CpResource /Users/cslim/git/repo/DEMO1/assets/first.xml build/Debug-iphonesimulator/DEMO1.app/first.xml    cd /Users/cslim/git/repo/DEMO1/iphone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cslim/git/repo/DEMO1/assets/first.xml /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app36"3328484F-A5A4-4C16-B225-A672319F4C0C-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CCpResource /Users/cslim/git/repo/DEMO1/assets/home.xml build/Debug-iphonesimulator/DEMO1.app/home.xml
+s415594347.348856
+e415594347.353515
+r1
+xCpResource
+x/Users/cslim/git/repo/DEMO1/assets/home.xml
+xbuild/Debug-iphonesimulator/DEMO1.app/home.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Debug-iphonesimulator/DEMO1.app/home.xml101"CpResource /Users/cslim/git/repo/DEMO1/assets/home.xml build/Debug-iphonesimulator/DEMO1.app/home.xmlf25e596b77c5b841^b08f5a6b77c5b841^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/home.xml00383883ddffdf42^568"CpResource /Users/cslim/git/repo/DEMO1/assets/home.xml build/Debug-iphonesimulator/DEMO1.app/home.xml    cd /Users/cslim/git/repo/DEMO1/iphone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cslim/git/repo/DEMO1/assets/home.xml /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app36"131AA884-A8FF-4913-A0B6-A85BC791D1DB-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CCpResource /Users/cslim/git/repo/DEMO1/assets/mapfile.xml build/Debug-iphonesimulator/DEMO1.app/mapfile.xml
+s415594347.348866
+e415594347.354607
+r1
+xCpResource
+x/Users/cslim/git/repo/DEMO1/assets/mapfile.xml
+xbuild/Debug-iphonesimulator/DEMO1.app/mapfile.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphonesimulator/DEMO1.app/mapfile.xml107"CpResource /Users/cslim/git/repo/DEMO1/assets/mapfile.xml build/Debug-iphonesimulator/DEMO1.app/mapfile.xml0762596b77c5b841^0cc85a6b77c5b841^---0#0#1#-19%DVTDocumentLocation2@100"file://localhost/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/mapfile.xml00383883ddffdf42^577"CpResource /Users/cslim/git/repo/DEMO1/assets/mapfile.xml build/Debug-iphonesimulator/DEMO1.app/mapfile.xml    cd /Users/cslim/git/repo/DEMO1/iphone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cslim/git/repo/DEMO1/assets/mapfile.xml /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app36"AE6933B5-4DAD-403E-9343-1B11643F4BEE-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CCpResource /Users/cslim/git/repo/DEMO1/assets/systemversion.txt build/Debug-iphonesimulator/DEMO1.app/systemversion.txt
+s415594347.353490
+e415594347.355815
+r1
+xCpResource
+x/Users/cslim/git/repo/DEMO1/assets/systemversion.txt
+xbuild/Debug-iphonesimulator/DEMO1.app/systemversion.txt
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/DEMO1.app/systemversion.txt119"CpResource /Users/cslim/git/repo/DEMO1/assets/systemversion.txt build/Debug-iphonesimulator/DEMO1.app/systemversion.txt5c935a6b77c5b841^6a175b6b77c5b841^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/systemversion.txt00383883ddffdf42^595"CpResource /Users/cslim/git/repo/DEMO1/assets/systemversion.txt build/Debug-iphonesimulator/DEMO1.app/systemversion.txt    cd /Users/cslim/git/repo/DEMO1/iphone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cslim/git/repo/DEMO1/assets/systemversion.txt /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app36"8D620875-2801-47EC-8B93-5CD633F33381-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CCpResource /Users/cslim/git/repo/DEMO1/assets/xlist.xml build/Debug-iphonesimulator/DEMO1.app/xlist.xml
+s415594347.354811
+e415594347.356902
+r1
+xCpResource
+x/Users/cslim/git/repo/DEMO1/assets/xlist.xml
+xbuild/Debug-iphonesimulator/DEMO1.app/xlist.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Debug-iphonesimulator/DEMO1.app/xlist.xml103"CpResource /Users/cslim/git/repo/DEMO1/assets/xlist.xml build/Debug-iphonesimulator/DEMO1.app/xlist.xml35ed5a6b77c5b841^855e5b6b77c5b841^---0#0#1#-19%DVTDocumentLocation2@98"file://localhost/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/xlist.xml00383883ddffdf42^571"CpResource /Users/cslim/git/repo/DEMO1/assets/xlist.xml build/Debug-iphonesimulator/DEMO1.app/xlist.xml    cd /Users/cslim/git/repo/DEMO1/iphone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/cslim/git/repo/DEMO1/assets/xlist.xml /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app36"76B3FE0F-58CA-477F-BF70-DB036742DDAB-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CGenerateDSYMFile /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app.dSYM /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO1
+s415594349.143480
+e415594349.368129
+r1
+xGenerateDSYMFile
+x/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app.dSYM
+x/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generate /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app.dSYM103"GenerateDSYMFile build/Debug-iphonesimulator/DEMO1.app.dSYM build/Debug-iphonesimulator/DEMO1.app/DEMO18dcf246d77c5b841^7d3e5e6d77c5b841^---0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app.dSYM00383883ddffdf42^601"GenerateDSYMFile build/Debug-iphonesimulator/DEMO1.app.dSYM build/Debug-iphonesimulator/DEMO1.app/DEMO1    cd /Users/cslim/git/repo/DEMO1/iphone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO1 -o /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app.dSYM36"D51B2770-87BC-4CBF-B104-47F90A1C6256-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CLd /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO1 normal i386
+s415594348.894906
+e415594349.134338
+r1
+xLd
+x/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO1
+xnormal
+xi386
+d/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DunamisDelegate.o
+d/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/main.o
+d/Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1AppDelegate.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/EventKit.framework/EventKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/EventKitUI.framework/EventKitUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libsqlite3.0.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libz.1.1.3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Users/cslim/git/repo/DEMO1/iphone/libDunamisCoreSimul.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+old: warning: directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/../PROTO_5.0/build_core/Debug-iphonesimulator'
+old: warning: directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/build_core/Debug-iphoneos'
+old: warning: directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/build_core/Debug-iphonesimulator'
+old: warning: directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/../../../../../PROTO_6.0/build_core/Debug-iphonesimulator'
+old: warning: ignoring file /Users/cslim/git/repo/DEMO1/iphone/libDunamisCoreDevice.a, file was built for archive which is not the architecture being linked (i386): /Users/cslim/git/repo/DEMO1/iphone/libDunamisCoreDevice.a
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Link /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO158"Ld build/Debug-iphonesimulator/DEMO1.app/DEMO1 normal i386b62ee56c77c5b841^aa66226d77c5b841^-717"ld: warning: directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/../PROTO_5.0/build_core/Debug-iphonesimulator'ld: warning: directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/build_core/Debug-iphoneos'ld: warning: directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/build_core/Debug-iphonesimulator'ld: warning: directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/../../../../../PROTO_6.0/build_core/Debug-iphonesimulator'ld: warning: ignoring file /Users/cslim/git/repo/DEMO1/iphone/libDunamisCoreDevice.a, file was built for archive which is not the architecture being linked (i386): /Users/cslim/git/repo/DEMO1/iphone/libDunamisCoreDevice.a5(21%IDEActivityLogMessage2@115"Directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/../PROTO_5.0/build_core/Debug-iphonesimulator'-415594348#0#129#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@95"Directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/build_core/Debug-iphoneos'-415594348#129#109#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@102"Directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/build_core/Debug-iphonesimulator'-415594348#238#116#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@127"Directory not found for option '-L/Users/cslim/git/repo/DEMO1/iphone/../../../../../PROTO_6.0/build_core/Debug-iphonesimulator'-415594348#354#141#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@208"Ignoring file /Users/cslim/git/repo/DEMO1/iphone/libDunamisCoreDevice.a, file was built for archive which is not the architecture being linked (i386): /Users/cslim/git/repo/DEMO1/iphone/libDunamisCoreDevice.a-415594348#495#222#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--2040"Ld build/Debug-iphonesimulator/DEMO1.app/DEMO1 normal i386    cd /Users/cslim/git/repo/DEMO1/iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator -L/Users/cslim/git/repo/DEMO1/iphone -L/Users/cslim/git/repo/DEMO1/iphone/../PROTO_5.0/build_core/Debug-iphonesimulator -L/Users/cslim/git/repo/DEMO1/iphone/build_core/Debug-iphoneos -L/Users/cslim/git/repo/DEMO1/iphone/build_core/Debug-iphonesimulator -L/Users/cslim/git/repo/DEMO1/iphone/../../../../../PROTO_6.0/build_core/Debug-iphonesimulator -F/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator -filelist /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -all_load -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=4.3 -framework AudioToolbox -framework MediaPlayer -framework OpenGLES -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework EventKit -framework EventKitUI -framework MessageUI -framework Security -framework SystemConfiguration -lsqlite3.0 -framework QuartzCore -framework MobileCoreServices -framework AssetsLibrary -framework CFNetwork -lz.1.1.3 -framework MapKit -lDunamisCoreDevice -lDunamisCoreSimul -Xlinker -dependency_info -Xlinker /Users/cslim/git/repo/DEMO1/iphone/build/DEMO1.build/Debug-iphonesimulator/DEMO1.build/Objects-normal/i386/DEMO1_dependency_info.dat -o /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/DEMO136"921829E3-E9B6-466F-B57E-B6D84745FC2B-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CProcessInfoPlistFile /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/Info.plist /Users/cslim/git/repo/DEMO1/iphone/DEMO1-Info.plist
+s415594347.337700
+e415594347.340709
+r1
+xProcessInfoPlistFile
+x/Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/Info.plist
+x/Users/cslim/git/repo/DEMO1/iphone/DEMO1-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Process /Users/cslim/git/repo/DEMO1/iphone/DEMO1-Info.plist86"ProcessInfoPlistFile build/Debug-iphonesimulator/DEMO1.app/Info.plist DEMO1-Info.plistad88566b77c5b841^664a576b77c5b841^---0#0#1#-19%DVTDocumentLocation2@67"file://localhost/Users/cslim/git/repo/DEMO1/iphone/DEMO1-Info.plist0000000000000000^647"ProcessInfoPlistFile build/Debug-iphonesimulator/DEMO1.app/Info.plist DEMO1-Info.plist    cd /Users/cslim/git/repo/DEMO1/iphone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/cslim/git/repo/DEMO1/iphone/DEMO1-Info.plist -genpkginfo /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app/Info.plist36"8D375B65-799E-4B7F-A525-2FE1A9B3EF11-
+b8844B182-AF59-4AAF-9AB1-CAD3709711DA
+
+CProcessPCH /Users/cslim/Library/Developer/Xcode/DerivedData/DEMO1-bzrcvxzitocstkcifboijjjshqri/Index/PrecompiledHeaders/DEMO1_Prefix-dwnvpgkalplhcjgyotjmnxojpcyp_ast/DEMO1_Prefix.pch.pch DEMO1_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hc/1r9mg2q577z0q47qd298jj7w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/DEMO1_Prefix-bbfvvcqycbyjqrhhoywauiheczlg/DEMO1_Prefix.pch.pch DEMO1_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/cslim/git/repo/DEMO1/iphone/build/Debug-iphonesimulator/DEMO1.app
+r0
+

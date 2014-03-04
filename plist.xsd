@@ -1,0 +1,43 @@
+<schema xmlns='http://www.w3.org/2001/XMLSchema'>
+	<element name='plist'>
+		<complexType>
+			<choice>
+				<element name='dict'/>
+			</choice>
+			<attribute name='version' type='string' use='optional'/>
+		</complexType>
+	</element>
+	<element name='array'>
+		<complexType>
+			<sequence minOccurs='0' maxOccurs='unbounded'>
+				<choice>
+					<element name='array'/>
+					<element name='dict'/>
+					<element name='string'/>
+				</choice>
+			</sequence>
+		</complexType>
+	</element>
+	<element name='dict'>
+		<complexType>
+			<sequence minOccurs='0' maxOccurs='unbounded'>
+				<element name='key'/>
+				<choice>
+					<element name='array'/>
+					<element name='dict'/>
+					<element name='string'/>
+				</choice>
+			</sequence>
+		</complexType>
+	</element>
+	<element name='key' >
+	  <complexType>
+	    <simpleContent>
+	      <extension base="string">
+	        <attribute name='target' type='string' use='optional' />
+	      </extension>
+	    </simpleContent>
+	  </complexType>
+	</element>
+	<element name='string' type='string' />
+</schema>

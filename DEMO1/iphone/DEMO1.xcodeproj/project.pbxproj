@@ -16,6 +16,8 @@
     "d0a9915981bd4baaaf5e7fdff7697464",
     "17eb37a8851e408dad36bb5778af402d",
     "8692d4c9adb84506b901143185d3c027",
+    "85d798e39b7848ad91e143e5a1fe2488",
+    "4eb139dade5140e99f2fa84c54e5230c",
 );
 "isa" = "PBXGroup"; "sourceTree" = "<group>"; };
 "36E2ECAA1726BD4800A6796D" = {"fileRef" = "3628739A158199D50097EF19"; "isa" = "PBXBuildFile"; };
@@ -24,8 +26,8 @@
     "36E2EC961725254700A6796D",
 );
 "isa" = "PBXCopyFilesBuildPhase"; "dstSubfolderSpec" = "16"; };
-"0ab640a89f0d4c5ca80f0643843736d3" = {"name" = "FlashRuntimeExtensions.h"; "lastKnownFileType" = "sourcecode.c.h"; "path" = "FlashRuntimeExtensions.h"; "isa" = "PBXFileReference"; "sourceTree" = "<group>"; };
 "36E2EC69171F9D5000A6796D" = {"lastKnownFileType" = "sourcecode.c.h"; "path" = "XAdapter.h"; "isa" = "PBXFileReference"; "sourceTree" = "<group>"; };
+"0ab640a89f0d4c5ca80f0643843736d3" = {"name" = "FlashRuntimeExtensions.h"; "lastKnownFileType" = "sourcecode.c.h"; "path" = "FlashRuntimeExtensions.h"; "isa" = "PBXFileReference"; "sourceTree" = "<group>"; };
 "363092A5171E44E600B60469" = {"fileRef" = "363092A4171E44E600B60469"; "isa" = "PBXBuildFile"; };
 "798b75a5ba3248cdaf1c6aa2ca1ae72a" = {"fileRef" = "17eb37a8851e408dad36bb5778af402d"; "isa" = "PBXBuildFile"; };
 "12B5E2BD123E321B002ACF5D" = {"name" = "Security.framework"; "lastKnownFileType" = "wrapper.framework"; "path" = "System/Library/Frameworks/Security.framework"; "isa" = "PBXFileReference"; "sourceTree" = "SDKROOT"; };
@@ -191,6 +193,8 @@
     "3939b27638904ac6b6ca03f58e5e5147",
     "798b75a5ba3248cdaf1c6aa2ca1ae72a",
     "efcdbba6e3f94178befd3c30178614ef",
+    "759ba8453cc84fb58bc993091bb6d315",
+    "aea7ce4f11344d18829ebe8aed851531",
 );
 "isa" = "PBXResourcesBuildPhase"; };
 "36E2EC95172524D800A6796D" = {"name" = "Release"; "isa" = "XCBuildConfiguration"; "buildSettings" = {"VALIDATE_PRODUCT" = "YES"; "CLANG_WARN_INT_CONVERSION" = "YES"; "CONFIGURATION_BUILD_DIR" = "$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)"; "PRODUCT_NAME" = "$(TARGET_NAME)"; "CONFIGURATION_TEMP_DIR" = "$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)"; "CLANG_CXX_LANGUAGE_STANDARD" = "gnu++0x"; "ALWAYS_SEARCH_USER_PATHS" = "NO"; "OTHER_LDFLAGS" = "-ObjC"; "LIBRARY_SEARCH_PATHS" = (
@@ -200,6 +204,7 @@
 );
 "GCC_LINK_WITH_DYNAMIC_LIBRARIES" = "NO"; "CLANG_WARN_ENUM_CONVERSION" = "YES"; "SKIP_INSTALL" = "YES"; "DSTROOT" = "/tmp/ANEMAIN.dst"; "GCC_C_LANGUAGE_STANDARD" = "gnu99"; "GCC_WARN_UNINITIALIZED_AUTOS" = "YES"; "VALID_ARCHS" = "armv7"; "GCC_PREFIX_HEADER" = ""; "CLANG_WARN_EMPTY_BODY" = "YES"; "IPHONEOS_DEPLOYMENT_TARGET" = "6.1"; "CLANG_WARN__DUPLICATE_METHOD_MATCH" = "YES"; "CLANG_CXX_LIBRARY" = "libc++"; "GCC_PRECOMPILE_PREFIX_HEADER" = "YES"; "CLANG_WARN_CONSTANT_CONVERSION" = "YES"; "COPY_PHASE_STRIP" = "YES"; "SYMROOT" = "anebuild"; };
 };
+"4eb139dade5140e99f2fa84c54e5230c" = {"name" = "button.xml"; "lastKnownFileType" = "text.xml"; "path" = "../assets/button.xml"; "isa" = "PBXFileReference"; "sourceTree" = "<group>"; };
 "29B97316FDCFA39411CA2CEA" = {"lastKnownFileType" = "sourcecode.c.objc"; "fileEncoding" = "4"; "path" = "main.m"; "isa" = "PBXFileReference"; "sourceTree" = "<group>"; };
 "36E2ED2D172A27AE00A6796D" = {"fileRef" = "36E2ED2C172A27AE00A6796D"; "isa" = "PBXBuildFile"; };
 "12B5E2C4123E323F002ACF5D" = {"fileRef" = "12B5E2C3123E323F002ACF5D"; "isa" = "PBXBuildFile"; };
@@ -272,6 +277,8 @@
 "12B5E2C3123E323F002ACF5D" = {"name" = "libsqlite3.0.dylib"; "lastKnownFileType" = "compiled.mach-o.dylib"; "path" = "usr/lib/libsqlite3.0.dylib"; "isa" = "PBXFileReference"; "sourceTree" = "SDKROOT"; };
 "288765FD0DF74451002DB57D" = {"fileRef" = "288765FC0DF74451002DB57D"; "isa" = "PBXBuildFile"; };
 "36E2ED2B172A27A600A6796D" = {"lastKnownFileType" = "sourcecode.c.h"; "fileEncoding" = "4"; "path" = "DunamisAirDelegate.h"; "isa" = "PBXFileReference"; "sourceTree" = "<group>"; };
+"759ba8453cc84fb58bc993091bb6d315" = {"fileRef" = "85d798e39b7848ad91e143e5a1fe2488"; "isa" = "PBXBuildFile"; };
+"aea7ce4f11344d18829ebe8aed851531" = {"fileRef" = "4eb139dade5140e99f2fa84c54e5230c"; "isa" = "PBXBuildFile"; };
 "1D6058900D05DD3D006BFB54" = {"name" = "DEMO1"; "productType" = "com.apple.product-type.application"; "productReference" = "1D6058910D05DD3D006BFB54"; "isa" = "PBXNativeTarget"; "dependencies" = (
 );
 "buildConfigurationList" = "1D6058960D05DD3E006BFB54"; "productName" = "sampleProject"; "buildPhases" = (
@@ -282,6 +289,7 @@
 "buildRules" = (
 );
 };
+"85d798e39b7848ad91e143e5a1fe2488" = {"name" = "xlist.xml"; "lastKnownFileType" = "text.xml"; "path" = "../assets/xlist.xml"; "isa" = "PBXFileReference"; "sourceTree" = "<group>"; };
 "36E2EC93172524D800A6796D" = {"defaultConfigurationName" = "Release"; "buildConfigurations" = (
     "36E2EC94172524D800A6796D",
     "36E2EC95172524D800A6796D",

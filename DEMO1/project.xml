@@ -10,6 +10,13 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>009a459065e245d5a6d1e2e3da48851c</key>
+		<dict>
+			<key>fileRef</key>
+			<string>a00f2ab69fba42c0832701f93a75eb66</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>080E96DDFE201D6D7F000001</key>
 		<dict>
 			<key>children</key>
@@ -22,11 +29,25 @@
 				<string>36E2ED241729236300A6796D</string>
 				<string>1278866612F6937A004ED9D7</string>
 				<string>1278866112F69362004ED9D7</string>
+				<string>0ab640a89f0d4c5ca80f0643843736d3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>path</key>
 			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0ab640a89f0d4c5ca80f0643843736d3</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FlashRuntimeExtensions.h</string>
+			<key>path</key>
+			<string>FlashRuntimeExtensions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -336,12 +357,24 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>17eb37a8851e408dad36bb5778af402d</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xml</string>
+			<key>name</key>
+			<string>mapfile.xml</string>
+			<key>path</key>
+			<string>../assets/mapfile.xml</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>19C28FACFE9D520D11CA2CBB</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>1D6058910D05DD3D006BFB54</string>
-				<string>36E2EC8A172524D800A6796D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -370,6 +403,11 @@
 			<key>files</key>
 			<array>
 				<string>28AD733F0D9D9553002E5188</string>
+				<string>009a459065e245d5a6d1e2e3da48851c</string>
+				<string>3939b27638904ac6b6ca03f58e5e5147</string>
+				<string>798b75a5ba3248cdaf1c6aa2ca1ae72a</string>
+				<string>efcdbba6e3f94178befd3c30178614ef</string>
+				<string>759ba8453cc84fb58bc993091bb6d315</string>
 			</array>
 			<key>isa</key>
 			<string>PBXResourcesBuildPhase</string>
@@ -671,6 +709,11 @@
 				<string>29B97323FDCFA39411CA2CEA</string>
 				<string>19C28FACFE9D520D11CA2CBB</string>
 				<string>42703f32a4704a07ad3901765b6b1b83</string>
+				<string>a00f2ab69fba42c0832701f93a75eb66</string>
+				<string>d0a9915981bd4baaaf5e7fdff7697464</string>
+				<string>17eb37a8851e408dad36bb5778af402d</string>
+				<string>8692d4c9adb84506b901143185d3c027</string>
+				<string>85d798e39b7848ad91e143e5a1fe2488</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1288,6 +1331,13 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>3939b27638904ac6b6ca03f58e5e5147</key>
+		<dict>
+			<key>fileRef</key>
+			<string>d0a9915981bd4baaaf5e7fdff7697464</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>42703f32a4704a07ad3901765b6b1b83</key>
 		<dict>
 			<key>children</key>
@@ -1296,6 +1346,48 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>images</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>759ba8453cc84fb58bc993091bb6d315</key>
+		<dict>
+			<key>fileRef</key>
+			<string>85d798e39b7848ad91e143e5a1fe2488</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>798b75a5ba3248cdaf1c6aa2ca1ae72a</key>
+		<dict>
+			<key>fileRef</key>
+			<string>17eb37a8851e408dad36bb5778af402d</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>85d798e39b7848ad91e143e5a1fe2488</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xml</string>
+			<key>name</key>
+			<string>xlist.xml</string>
+			<key>path</key>
+			<string>../assets/xlist.xml</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8692d4c9adb84506b901143185d3c027</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>systemversion.txt</string>
+			<key>path</key>
+			<string>../assets/systemversion.txt</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1397,6 +1489,39 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>a00f2ab69fba42c0832701f93a75eb66</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xml</string>
+			<key>name</key>
+			<string>first.xml</string>
+			<key>path</key>
+			<string>../assets/first.xml</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>d0a9915981bd4baaaf5e7fdff7697464</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xml</string>
+			<key>name</key>
+			<string>home.xml</string>
+			<key>path</key>
+			<string>../assets/home.xml</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>efcdbba6e3f94178befd3c30178614ef</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8692d4c9adb84506b901143185d3c027</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

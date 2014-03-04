@@ -1,0 +1,28 @@
+<plist>
+	<dict>
+		<key>title</key><string>SAMPLE</string>
+		<key>bgcolor</key><string>0,0,0,0.1</string>
+		<key>hidebackbtn</key><string>YES</string>
+		<key>hidenavbar</key><string>NO</string>
+		<key>components</key>
+		<dict>
+			<key>componentsOrder</key><string>button</string>
+			<key>button</key>
+			<dict>
+				<key>type</key><string>button</string>
+				<key>title</key><string>HELLO BUTTON</string>
+				<key>backgroundcolor</key><string>0,0,1,1</string>
+				<key>pos</key><string>0,0,50,40</string>
+				<key>action</key>
+				<dict>
+					<key>type</key><string>alert</string>
+					<key>msg</key><string>Hello World</string>
+					<key>button</key>
+					<dict>
+						<key>title</key><string>OK</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</plist>

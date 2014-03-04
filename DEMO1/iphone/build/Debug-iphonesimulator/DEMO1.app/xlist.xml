@@ -1,0 +1,110 @@
+<plist>
+	<dict>
+	
+		<!-- 데이터 영역 -->
+		<key>dataProvider</key>
+		<dict>
+			<key>template</key>
+			<dict>
+				<key>tabledata</key>
+				<array>
+					<dict>
+						<key>title</key><string>리스트1</string>
+						<key>detail</key><string>세부1</string>
+					</dict>
+					<dict>
+						<key>title</key><string>리스트2</string>
+						<key>detail</key><string>세부2</string>
+					</dict>
+					<dict>
+						<key>title</key><string>리스트3</string>
+						<key>detail</key><string>세부3</string>
+					</dict>
+					<dict>
+						<key>title</key><string>리스트4</string>
+						<key>detail</key><string>세부4</string>
+					</dict>
+					<dict>
+						<key>title</key><string>리스트5</string>
+						<key>detail</key><string>세부5</string>
+						<key>_action</key><string>action2</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		
+		<!-- 셀 영역 UI -->
+		<key>layoutSelector</key><string>{@rowSelected:?YES|selectedLayout|cellLayout}</string>
+		<key>cellLayout</key>
+		<dict>
+			<key>rowHeight</key><string>60</string>
+			<key>cellStyle</key>
+			<dict>
+				<key>selectionStyle</key><string>0</string>
+			</dict>
+			<key>label1_1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>15</string>
+				<key>textcolor</key><string>0,0.2,0.7,1</string>
+				<key>bind</key><string>@title</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+			<key>label2_1</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>20</string>
+				<key>bind</key><string>@detail</string>
+				<key>pos</key><string>30,32,300,25</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+		<key>selectedLayout</key>
+		<dict>
+			<key>rowHeight</key><string>60</string>
+			
+			<key>label1_2</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>15</string>
+				<key>textcolor</key><string>0,0.2,0.7,1</string>
+				<key>bind</key><string>@title</string>
+				<key>pos</key><string>30,5,300,25</string>
+				<key>textalign</key><string>left</string>
+				<key>backgroundcolor</key><string>0,1,0,1</string>
+			</dict>
+			<key>label2_2</key>
+			<dict>
+				<key>type</key><string>label</string>
+				<key>fontsize</key><string>20</string>
+				<key>bind</key><string>sbsbsbs</string>
+				<key>pos</key><string>30,32,300,25</string>
+				<key>textcolor</key><string>0,1,0,1</string>
+				<key>textalign</key><string>left</string>
+			</dict>
+		</dict>
+		
+		<!-- 액션 -->
+		<key>action</key>
+		<dict>
+			<key>type</key><string>alert</string>
+			<key>msg</key><string>action</string>
+			<key>button</key>
+			<dict>
+				<key>title</key><string>OK</string>
+			</dict>
+		</dict>
+		
+		<key>action2</key>
+		<dict>
+			<key>type</key><string>alert</string>
+			<key>msg</key><string>새로운 액션</string>
+			<key>button</key>
+			<dict>
+				<key>title</key><string>OK</string>
+			</dict>
+		</dict>
+
+	</dict>
+</plist>
